@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Andreas Olsson
+	email = olsson.andreas@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Andreas Olsson
+#	email = olsson.andreas@gmail.com
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = true
