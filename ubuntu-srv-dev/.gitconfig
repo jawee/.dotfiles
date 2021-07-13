@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[user]
+	email = olsson.andreas@gmail.com
+	name = Andreas Olsson
+[core]
+	editor = vim
