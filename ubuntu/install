@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+pushd $DOTFILES/ubuntu
+for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
+do
+  echo "Installing $folder"
+  stow -t ~ -D $folder
+  stow -t ~ $folder
+done
+popd

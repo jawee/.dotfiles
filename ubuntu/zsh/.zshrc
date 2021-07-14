@@ -99,3 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
+export DOTFILES=$HOME/.dotfiles
+export STOW_FOLDERS="vim,tmux,i3,zsh"
