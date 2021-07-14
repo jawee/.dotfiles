@@ -3,8 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/figge/.oh-my-zsh"
-export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,3 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ll="ls -lah"
+
+# Dotfiles
+export DOTFILES=$HOME/.dotfiles
+export STOW_FOLDERS="vim,tmux,zsh"
