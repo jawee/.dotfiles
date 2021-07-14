@@ -18,13 +18,10 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set termguicolors
+" set termguicolors
 set scrolloff=8
 
 set cmdheight=2
-
-set t_Co=256 " For tmux
-set re=0
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -79,11 +76,9 @@ let loaded_matchparen = 1
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let mapleader = " "
+let g:netrw_browse_split=2
 
-let g:netrw_browse_split = 0
-let g:netrw_banner = 0
 let g:netrw_winsize = 25
-let g:netrw_localrmdir='rm -r'
 
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
@@ -98,12 +93,7 @@ nnoremap <Leader><CR> :so ~/.vimrc<CR>
 nnoremap <Leader>+ :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>ee oif err != nil {<CR>log.Fatalf("%+v\n", err)<CR>}<CR><esc>kkI<esc>
-
-" Fugitive
-nmap <leader>gs :G<CR>
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
-
+nnoremap <Leader>å :e#<CR>
 
 function! s:check_back_space() abort
   let col = col('.') - 1
@@ -121,4 +111,6 @@ nmap <silent> <leader>gp <Plug>(coc-diagnostic-prev-error)
 nmap <silent> <leader>gn <Plug>(coc-diagnostic-next-error)
 nnoremap <leader>cr :CocRestart
 
-set rtp+=/usr/local/opt/fzf
+" For transparent backgrounds
+" hi! Normal ctermbg=NONE guibg=NONE
+" hi! NonText ctermbg=NONE guibg=NONE
