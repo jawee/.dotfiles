@@ -106,3 +106,5 @@ alias ll="ls -lah"
 # Dotfiles
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="vim,tmux,zsh"
+
+export TERM="xterm-256color"
