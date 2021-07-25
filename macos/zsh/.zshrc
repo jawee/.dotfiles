@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=$HOME/go
 alias ll="ls -lah"
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,zsh"
+export STOW_FOLDERS="vim,tmux,zsh,bin"
 export EDITOR='vim'
 alias tn="tmux -u new"
 alias ta="tmux -u attach"
@@ -109,3 +109,4 @@ alias weather="curl wttr.in"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
