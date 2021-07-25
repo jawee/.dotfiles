@@ -104,6 +104,7 @@ export STOW_FOLDERS="vim,tmux,zsh"
 export EDITOR='vim'
 alias tn="tmux -u new"
 alias ta="tmux -u attach"
+alias weather="curl wttr.in"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
