@@ -101,6 +101,9 @@ export GOPATH=$HOME/go
 alias ll="ls -lah"
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="vim,tmux,zsh"
+export EDITOR='vim'
+alias tn="tmux -u new"
+alias ta="tmux -u attach"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
