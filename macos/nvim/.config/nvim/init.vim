@@ -9,8 +9,8 @@ set relativenumber
 set nohlsearch
 set hidden
 set noerrorbells
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=2 softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set nu
@@ -67,9 +67,6 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
-
-" HARPOON!!
-Plug 'mhinz/vim-rfc'
 
 " prettier
 Plug 'sbdchd/neoformat'
@@ -148,3 +145,5 @@ nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
 nnoremap <leader>vsd :lua vim.lsp.diagnostic.show_line_diagnostics(); vim.lsp.util.show_line_diagnostics()<CR>
 nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
+
+au BufNewFile,BufRead Jenkinsfile setf groovy
