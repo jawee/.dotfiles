@@ -70,7 +70,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  git
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,6 +102,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+export EDITOR='vim'
+alias tn="tmux -u new"
+alias ta="tmux -u attach"
+alias weather="curl wttr.in"
 
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,i3,zsh"
+export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
