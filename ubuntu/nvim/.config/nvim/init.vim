@@ -171,3 +171,18 @@ let g:compe.source.nvim_lua = v:true
 let g:compe.source.vsnip = v:true
 
 inoremap <silent><expr> <CR>      compe#confirm('<CR>')
+
+" Keep it centered
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
+
+" Undo break points
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+inoremap ( (<c-g>u
+inoremap ) )<c-g>u
+
+nnoremap Y y$
