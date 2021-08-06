@@ -105,6 +105,12 @@ alias ll="ls -lah"
 
 # Dotfiles
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,zsh"
+export STOW_FOLDERS="vim,tmux,zsh,bin,nvim"
+export EDITOR='vim'
+alias tn="tmux -u new"
+alias ta="tmux -u attach"
+alias weather="curl wttr.in"
 
 export TERM="xterm-256color"
+
+export PATH="$HOME/.local/bin:$PATH"
