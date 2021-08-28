@@ -1,8 +1,6 @@
 local function on_attach()
 end
 
-require('tree-sitter-typescript').typescript;
-require('tree-sitter-typescript').tsx;
 require'lspconfig'.tsserver.setup{ on_attach=on_attach }
 
 require'lspconfig'.gopls.setup{
