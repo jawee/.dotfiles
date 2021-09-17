@@ -117,3 +117,4 @@ alias open="explorer.exe"
 export TERM="xterm-256color"
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.dotnet/tools:$PATH"
