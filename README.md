@@ -1,9 +1,7 @@
 # Dotfiles
 
 ### TODO
-* Get dotfiles from MacOS and Ubuntu
-* Write install scripts using stow
-* Handle dependencies (vim plug, oh-my-zsh etc.)
+* Handle dependencies (vim plug, oh-my-zsh, oh-my-zsh plugins etc.)
 
 
 #### Install zsh-autosuggestions
