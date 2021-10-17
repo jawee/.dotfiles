@@ -15,6 +15,7 @@ require'lspconfig'.gopls.setup{
         },
     },
 }
+require'lspconfig'.clangd.setup{}
 -- who even uses this?
 require'lspconfig'.rust_analyzer.setup{ on_attach=on_attach }
 
