@@ -3,13 +3,6 @@ end
 
 require'lspconfig'.tsserver.setup{ on_attach=on_attach }
 
-local home = os.getenv("HOME")
-local omnisharp_bin = home .. "/.local/bin/omnisharp/run"
-require'lspconfig'.omnisharp.setup {
-  cmd = {omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) };
-}
-
-
 require'lspconfig'.gopls.setup{
     on_attach=on_attach,
     cmd = {"gopls", "serve"},
