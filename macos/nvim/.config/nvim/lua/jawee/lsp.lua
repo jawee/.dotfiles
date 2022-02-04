@@ -19,5 +19,3 @@ local opts = {
     -- default: true
     show_guides = true,
 }
-
-require('symbols-outline').setup(opts)
