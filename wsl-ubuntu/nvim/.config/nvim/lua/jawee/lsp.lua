@@ -3,18 +3,8 @@ end
 
 require'lspconfig'.tsserver.setup{ on_attach=on_attach }
 
-require'lspconfig'.gopls.setup{
-    on_attach=on_attach,
-    cmd = {"gopls", "serve"},
-    settings = {
-        gopls = {
-            analyses = {
-                unusedparams = true,
-            },
-            staticcheck = true,
-        },
-    },
-}
+require'lspconfig'.gopls.setup{}
+require'lspconfig'.clangd.setup{}
 -- who even uses this?
 require'lspconfig'.rust_analyzer.setup{ on_attach=on_attach }
 
@@ -29,5 +19,3 @@ local opts = {
     -- default: true
     show_guides = true,
 }
-
-require('symbols-outline').setup(opts)
