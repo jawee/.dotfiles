@@ -2,7 +2,7 @@
 
 #!/usr/bin/env zsh
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="vim,bin,nvim,tmux,zsh"
+    STOW_FOLDERS="vim,bin,nvim,tmux,zsh,karabiner"
 fi
 
 if [[ -z $DOTFILES ]]; then
