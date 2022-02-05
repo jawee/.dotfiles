@@ -52,8 +52,6 @@ Plug 'nvim-lua/lsp_extensions.nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 
-
-
 " Plug 'nvim-lua/completion-nvim'
 
 " Neovim Tree shitter
@@ -76,6 +74,8 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
+
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
