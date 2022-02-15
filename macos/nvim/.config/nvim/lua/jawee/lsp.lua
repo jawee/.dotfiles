@@ -1,19 +1,26 @@
-local function on_attach()
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local on_attach = function()
+    print("Lsp Started")
 end
 
-require'lspconfig'.tsserver.setup{ on_attach=on_attach }
+require'lspconfig'.tsserver.setup{ 
+    capabilities = capabilities,
+    on_attach=on_attach 
+}
 
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 require'lspconfig'.gopls.setup{
     capabilities = capabilities,
-    on_attach = function()
-        print("attached")
-        vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
-    end,
+    on_attach = on_attach, 
 }
-require'lspconfig'.clangd.setup{}
+require'lspconfig'.clangd.setup{
+    capabilities = capabilities,
+    on_attach=on_attach
+}
 -- who even uses this?
-require'lspconfig'.rust_analyzer.setup{ on_attach=on_attach }
+require'lspconfig'.rust_analyzer.setup{ 
+    capabilities = capabilities, 
+    on_attach=on_attach 
+}
 
 local opts = {
     -- whether to highlight the currently hovered symbol
