@@ -3,7 +3,14 @@ end
 
 require'lspconfig'.tsserver.setup{ on_attach=on_attach }
 
-require'lspconfig'.gopls.setup{}
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+require'lspconfig'.gopls.setup{
+    capabilities = capabilities,
+    on_attach = function()
+        print("attached")
+        vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
+    end,
+}
 require'lspconfig'.clangd.setup{}
 -- who even uses this?
 require'lspconfig'.rust_analyzer.setup{ on_attach=on_attach }

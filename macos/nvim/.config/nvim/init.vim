@@ -131,7 +131,7 @@ nmap <leader>gs :G<CR>
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
 " nnoremap <Leader>pf :lua require('telescope.builtin').find_files()<CR>
-nnoremap <Leader>pf :Telescope find_files<CR>
+nnoremap <Leader>pf :Telescope find_files hidden=true<CR>
 
 lua require("jawee")
 lua require'nvim-treesitter.configs'.setup { highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
