@@ -118,3 +118,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$PATH:/Users/figge/.dotnet/tools"
+
+# Where should I put you?
+bindkey -s ^f "tmux-sessionizer\n"
+
