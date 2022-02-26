@@ -88,7 +88,7 @@ let mapleader = " "
 
 nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <silent> Q <nop>
-nnoremap <silent> <C-f> :lua require("harpoon.term").sendCommand(1, "tmux-sessionizer\n"); require("harpoon.term").gotoTerminal(1)<CR>
+nnoremap <silent> <C-f> :silent !tmux neww tmux-sessionizer<CR>
 nnoremap <leader>vwh :h <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>bs /<C-R>=escape(expand("<cWORD>"), "/")<CR><CR>
 nnoremap <leader>u :UndotreeShow<CR>
@@ -146,7 +146,7 @@ nnoremap <leader>vrr :lua vim.lsp.buf.references()<CR>
 nnoremap <leader>vrn :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>vh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
-nnoremap <leader>vsd :lua vim.lsp.diagnostic.show_line_diagnostics(); vim.lsp.util.show_line_diagnostics()<CR>
+nnoremap <leader>vsd :lua vim.diagnostic.open_float()<CR>
 nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>

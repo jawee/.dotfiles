@@ -118,3 +118,6 @@ export TERM="xterm-256color"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
+
+# Where should I put you?
+bindkey -s ^f "tmux-sessionizer\n"
