@@ -48,6 +48,8 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/lsp_extensions.nvim'
 
+Plug 'numToStr/Comment.nvim'
+
 " For luasnip users.
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -81,7 +83,7 @@ call plug#end()
 
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
-set background=dark
+" set background=transparent
 
 let loaded_matchparen = 1
 let mapleader = " "
@@ -131,7 +133,7 @@ nmap <leader>gs :G<CR>
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
 " nnoremap <Leader>pf :lua require('telescope.builtin').find_files()<CR>
-nnoremap <Leader>pf :Telescope find_files<CR>
+nnoremap <Leader>pf :Telescope find_files hidden=true<CR>
 
 lua require("jawee")
 lua require'nvim-treesitter.configs'.setup { highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
@@ -167,3 +169,7 @@ inoremap ( (<c-g>u
 inoremap ) )<c-g>u
 
 nnoremap Y y$
+
+hi Normal ctermbg=NONE
+hi NonText ctermbg=NONE
+hi Normal guibg=NONE
