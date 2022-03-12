@@ -108,7 +108,9 @@ alias ll="ls -lah"
 # Dotfiles
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="vim,tmux,zsh,bin,nvim"
-export EDITOR='vim'
+export EDITOR='nvim'
+export GOPATH=$HOME/go
+
 alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
@@ -118,6 +120,7 @@ export TERM="xterm-256color"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
+export PATH="$GOPATH/bin:$PATH"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
