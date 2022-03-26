@@ -41,12 +41,15 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin(stdpath('data') . '/plugged')
+Plug 'github/copilot.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/lsp_extensions.nvim'
+
+Plug 'numToStr/Comment.nvim'
 
 " For luasnip users.
 Plug 'L3MON4D3/LuaSnip'
@@ -88,7 +91,7 @@ let mapleader = " "
 
 nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <silent> Q <nop>
-nnoremap <silent> <C-f> :lua require("harpoon.term").sendCommand(1, "tmux-sessionizer\n"); require("harpoon.term").gotoTerminal(1)<CR>
+nnoremap <silent> <C-f> :silent !tmux neww tmux-sessionizer<CR>
 nnoremap <leader>vwh :h <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>bs /<C-R>=escape(expand("<cWORD>"), "/")<CR><CR>
 nnoremap <leader>u :UndotreeShow<CR>
@@ -131,7 +134,7 @@ nmap <leader>gs :G<CR>
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
 " nnoremap <Leader>pf :lua require('telescope.builtin').find_files()<CR>
-nnoremap <Leader>pf :Telescope find_files<CR>
+nnoremap <Leader>pf :Telescope find_files hidden=true<CR>
 
 lua require("jawee")
 lua require'nvim-treesitter.configs'.setup { highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
@@ -146,7 +149,7 @@ nnoremap <leader>vrr :lua vim.lsp.buf.references()<CR>
 nnoremap <leader>vrn :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>vh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
-nnoremap <leader>vsd :lua vim.lsp.diagnostic.show_line_diagnostics(); vim.lsp.util.show_line_diagnostics()<CR>
+nnoremap <leader>vsd :lua vim.diagnostic.open_float()<CR>
 nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>

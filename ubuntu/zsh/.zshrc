@@ -100,17 +100,23 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias nvimconfig="nvim ~/.config/nvim/init.vim"
 alias vimconfig="vim ~/.vimrc"
-export EDITOR='vim'
+export EDITOR='nvim'
 alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
+
+export GOPATH=$HOME/go
 
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"
+
+# Where should I put you?
+bindkey -s ^f "tmux-sessionizer\n"
