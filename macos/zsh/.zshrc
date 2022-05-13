@@ -122,4 +122,3 @@ export PATH="$PATH:/Users/figge/.dotnet/tools"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
-

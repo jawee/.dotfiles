@@ -80,6 +80,8 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'sbdchd/neoformat'
+
 call plug#end()
 
 colorscheme gruvbox
@@ -104,6 +106,8 @@ nnoremap <Leader>cpu a%" PRIu64 "<esc>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
 nnoremap <Leader>å :e#<CR>
+nnoremap gT :bprev<CR>
+nnoremap gt :bnext<CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
@@ -150,7 +154,8 @@ nnoremap <leader>vrn :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>vh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
 nnoremap <leader>vsd :lua vim.diagnostic.open_float()<CR>
-nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
+" nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
+nnoremap <leader>vn :lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>
 
