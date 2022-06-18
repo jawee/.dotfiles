@@ -60,6 +60,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 " Neovim Tree shitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/nvim-treesitter-context'
 
 Plug 'rust-lang/rust.vim'
 Plug 'darrikonn/vim-gofmt'
