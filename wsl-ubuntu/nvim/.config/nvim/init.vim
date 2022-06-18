@@ -41,6 +41,7 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin(stdpath('data') . '/plugged')
+Plug 'github/copilot.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -59,6 +60,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 " Neovim Tree shitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/nvim-treesitter-context'
 
 Plug 'rust-lang/rust.vim'
 Plug 'darrikonn/vim-gofmt'
@@ -78,6 +80,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'vim-airline/vim-airline'
+
+Plug 'sbdchd/neoformat'
 
 call plug#end()
 
