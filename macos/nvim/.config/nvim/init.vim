@@ -41,7 +41,6 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'github/copilot.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
