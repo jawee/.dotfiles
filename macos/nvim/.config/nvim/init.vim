@@ -69,8 +69,10 @@ Plug 'junegunn/gv.vim'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-dispatch'
-Plug 'gruvbox-community/gruvbox'
 Plug 'tomlion/vim-solidity'
+
+" colorschemes
+Plug 'gruvbox-community/gruvbox'
 
 " telescope requirements...
 Plug 'nvim-lua/popup.nvim'
@@ -81,6 +83,8 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'vim-airline/vim-airline'
 
 Plug 'sbdchd/neoformat'
+
+Plug 'simrat39/symbols-outline.nvim'
 
 call plug#end()
 
