@@ -41,10 +41,10 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'github/copilot.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/lsp_extensions.nvim'
@@ -62,16 +62,16 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
 Plug 'nvim-treesitter/nvim-treesitter-context'
 
-Plug 'rust-lang/rust.vim'
-Plug 'darrikonn/vim-gofmt'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
-Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-dispatch'
-Plug 'gruvbox-community/gruvbox'
 Plug 'tomlion/vim-solidity'
+
+" colorschemes
+Plug 'gruvbox-community/gruvbox'
+Plug 'folke/tokyonight.nvim'
 
 " telescope requirements...
 Plug 'nvim-lua/popup.nvim'
@@ -83,8 +83,12 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'sbdchd/neoformat'
 
+Plug 'simrat39/symbols-outline.nvim'
+
 call plug#end()
 
+" colorscheme tokyonight
+" let g:tokyonight_style = "night"
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark
@@ -102,9 +106,6 @@ nnoremap <leader>pv :Ex<CR>
 nnoremap <Leader>+ :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>rp :resize 100<CR>
-nnoremap <Leader>ee oif err != nil {<CR>log.Fatalf("%+v\n", err)<CR>}<CR><esc>kkI<esc>
-nnoremap <Leader>cpu a%" PRIu64 "<esc>
-nnoremap <leader>s :%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>
 
 nnoremap <Leader>å :e#<CR>
 nnoremap gT :bprev<CR>
@@ -138,13 +139,12 @@ nmap <leader>gs :G<CR>
 
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
-" nnoremap <Leader>pf :lua require('telescope.builtin').find_files()<CR>
 nnoremap <Leader>pf :Telescope find_files hidden=true<CR>
 
 lua require("jawee")
 lua require'nvim-treesitter.configs'.setup { highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
 
-set completeopt=menuone,noselect
+set completeopt=menu,menuone,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 
 nnoremap <leader>vd :lua vim.lsp.buf.definition()<CR>
@@ -155,8 +155,8 @@ nnoremap <leader>vrn :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>vh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
 nnoremap <leader>vsd :lua vim.diagnostic.open_float()<CR>
-" nnoremap <leader>vn :lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <leader>vn :lua vim.diagnostic.goto_next()<CR>
+nnoremap <leader>vp :lua vim.diagnostic.goto_prev()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>
 

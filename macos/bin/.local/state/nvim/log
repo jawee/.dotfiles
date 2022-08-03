@@ -1,0 +1,1749 @@
+DBG 2022-07-23T07:59:37.422 nvim.64322.0 UI: hl_attr_define
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: win_viewport
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: grid_cursor_goto
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: mode_change
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: mouse_on
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 UI: flush
+DBG 2022-07-23T07:59:37.437 nvim.64322.0 stream_close:107: closing Stream: 0x1280381e8
+DBG 2022-07-23T07:59:37.447 nvim.64322.0 UI: stop
+ERR 2022-07-23T07:59:39.445 nvim.64322.0 loop_close:155: uv_loop_close() hang?
+[--I] signal   0x104767810
+[-AI] async    0x1047675b8
+[R--] timer    0x600003f49040
+[R--] timer    0x600003f49180
+[R--] pipe     0x11cf1ee70
+[RA-] pipe     0x11cf20190
+[RA-] pipe     0x11cf20900
+[RA-] process  0x600003c44a20
+INF 2022-07-23T07:59:39.446 nvim.64322.0 os_exit:605: Nvim exit: 1
+INF 2022-07-25T08:51:26.482 nvim.86952.0 set_init_2:785: startup runtimepath/packpath value: /Users/figge/.config/nvim,/etc/xdg/nvim,/Users/figge/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/figge/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/figge/.config/nvim/after
+INF 2022-07-25T08:51:26.482 nvim.86951.0 set_init_2:785: startup runtimepath/packpath value: /Users/figge/.config/nvim,/etc/xdg/nvim,/Users/figge/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/figge/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/figge/.config/nvim/after
+INF 2022-07-25T08:51:26.482 nvim.86953.0 set_init_2:785: startup runtimepath/packpath value: /Users/figge/.config/nvim,/etc/xdg/nvim,/Users/figge/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/figge/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/figge/.config/nvim/after
+INF 2022-07-25T08:51:26.484 nvim.86951.0 os_exit:605: Nvim exit: 0
+INF 2022-07-25T08:51:26.484 nvim.86952.0 os_exit:605: Nvim exit: 0
+INF 2022-07-25T08:51:26.509 nvim.86953.0 os_exit:605: Nvim exit: 0
+DBG 2022-07-25T08:51:29.547 ?.86995    pty_process_save_termios:173: tty_fd=0
+INF 2022-07-25T08:51:29.549 nvim.86995.0 set_init_2:785: startup runtimepath/packpath value: /Users/figge/.config/nvim,/etc/xdg/nvim,/Users/figge/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/figge/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/figge/.config/nvim/after
+DBG 2022-07-25T08:51:29.550 nvim.86995.0 tui_get_stty_erase:2205: stty/termios:erase=
+DBG 2022-07-25T08:51:29.550 nvim.86995.0 tui_tk_ti_getstr:2221: libtermkey:kbs=
+DBG 2022-07-25T08:51:29.550 nvim.86995.0 tui_tk_ti_getstr:2226: libtermkey:kdch1=[3~
+DBG 2022-07-25T08:51:29.551 nvim.86995.0 tui_tk_ti_getstr:2232: libtermkey:kmous=[M
+DBG 2022-07-25T08:51:29.552 nvim.86995.0 UI: option_set
+DBG 2022-07-25T08:51:29.552 nvim.86995.0 UI: option_set (+11 times...)
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: option_set
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: option_set (+4 times...)
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: grid_resize
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: grid_resize (+1 times...)
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: grid_clear
+DBG 2022-07-25T08:51:29.553 nvim.86995.0 UI: update_menu
+DBG 2022-07-25T08:51:29.570 nvim.86995.0 UI: update_menu (+10 times...)
+DBG 2022-07-25T08:51:29.570 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.574 nvim.86995.0 UI: default_colors_set (+1 times...)
+DBG 2022-07-25T08:51:29.574 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:29.576 nvim.86995.0 UI: hl_attr_define (+41 times...)
+DBG 2022-07-25T08:51:29.576 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.576 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:29.581 nvim.86995.0 UI: hl_attr_define (+38 times...)
+DBG 2022-07-25T08:51:29.581 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.584 nvim.86995.0 UI: default_colors_set (+1 times...)
+DBG 2022-07-25T08:51:29.584 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:29.586 nvim.86995.0 UI: hl_attr_define (+3 times...)
+DBG 2022-07-25T08:51:29.586 nvim.86995.0 UI: default_colors_set
+DBG 2022-07-25T08:51:29.586 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:29.742 nvim.86995.0 emsg_multiline:690: (:silent) E95: Buffer with this name already exists (function <SNR>43_VimEnter[10]..<SNR>43_LocalBrowse[32]..netrw#LocalBrowseCheck[26]..<SNR>79_NetrwBrowse[141]..<SNR>79_NetrwGetBuffer[76]..<SNR>79_NetrwEnew[69]..<SNR>79_NetrwBufRename (line 10))
+DBG 2022-07-25T08:51:29.742 nvim.86995.0 emsg_multiline:690: (:silent) E95: Buffer with this name already exists (function <SNR>43_VimEnter[10]..<SNR>43_LocalBrowse[32]..netrw#LocalBrowseCheck[26]..<SNR>79_NetrwBrowse[141]..<SNR>79_NetrwGetBuffer[95]..<SNR>79_NetrwBufRename (line 10))
+DBG 2022-07-25T08:51:29.763 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>43_VimEnter[10]..<SNR>43_LocalBrowse[32]..netrw#LocalBrowseCheck[26]..<SNR>79_NetrwBrowse[252]..<SNR>79_PerformListing[239]..<SNR>79_NetrwWideListing (line 65))
+DBG 2022-07-25T08:51:29.763 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>43_VimEnter[10]..<SNR>43_LocalBrowse[32]..netrw#LocalBrowseCheck[26]..<SNR>79_NetrwBrowse[252]..<SNR>79_PerformListing[239]..<SNR>79_NetrwWideListing (line 68))
+INF 2022-07-25T08:51:29.765 nvim.86995.0 main:578: starting main loop
+DBG 2022-07-25T08:51:29.765 nvim.86995.0 UI: hl_attr_define (+47 times...)
+DBG 2022-07-25T08:51:29.765 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:29.765 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:29.783 nvim.86995.0 UI: raw_line (+108 times...)
+DBG 2022-07-25T08:51:29.783 nvim.86995.0 UI: grid_resize
+DBG 2022-07-25T08:51:29.783 nvim.86995.0 UI: msg_set_pos
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: mode_info_set
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:29.784 nvim.86995.0 UI: mouse_on
+DBG 2022-07-25T08:51:29.785 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:29.785 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.785 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:29.787 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.787 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:29.834 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:29.835 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.835 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:29.886 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:29.888 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.888 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 log_key:1099: input: <:>
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 UI: flush (+8 times...)
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:29.898 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:29.899 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:29.899 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: hl_attr_define (+5 times...)
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: mouse_off
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.912 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:29.914 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.914 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:29.914 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:29.915 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:29.966 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.319 nvim.86995.0 log_key:1099: input: <P>
+DBG 2022-07-25T08:51:30.319 nvim.86995.0 UI: flush (+4 times...)
+DBG 2022-07-25T08:51:30.320 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:30.320 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:30.320 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:30.320 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:30.321 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:30.321 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.321 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.321 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.321 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.322 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.323 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.323 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.323 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.375 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.479 nvim.86995.0 log_key:1099: input: <l>
+DBG 2022-07-25T08:51:30.480 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:30.481 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.482 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.482 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.483 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.483 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.483 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.483 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.534 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.661 nvim.86995.0 handle_background_color:650: did not get a response for terminal background query
+DBG 2022-07-25T08:51:30.662 nvim.86995.0 log_key:1099: input: <u>
+DBG 2022-07-25T08:51:30.663 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:30.663 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:30.663 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:30.663 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:30.663 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:30.664 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:30.664 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.664 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.664 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.665 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.666 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.666 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.666 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.718 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.734 nvim.86995.0 log_key:1099: input: <g>
+DBG 2022-07-25T08:51:30.735 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:30.735 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.736 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.737 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.737 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.737 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.737 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.737 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.788 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.932 nvim.86995.0 log_key:1099: input: <U>
+DBG 2022-07-25T08:51:30.933 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:30.933 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:30.934 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:30.934 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:30.934 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:30.934 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:30.934 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.935 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.935 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.935 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.935 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:30.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:30.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:30.987 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.077 nvim.86995.0 log_key:1099: input: <p>
+DBG 2022-07-25T08:51:31.078 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:31.079 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.079 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.079 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.079 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.079 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.080 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.080 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.080 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.081 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.081 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.082 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.082 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.125 nvim.86995.0 log_key:1099: input: <d>
+DBG 2022-07-25T08:51:31.125 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:31.125 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.126 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.127 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.127 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.128 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.129 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.129 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.180 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.201 nvim.86995.0 log_key:1099: input: <a>
+DBG 2022-07-25T08:51:31.201 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:31.201 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.202 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.203 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.203 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.203 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.203 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.254 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.329 nvim.86995.0 log_key:1099: input: <t>
+DBG 2022-07-25T08:51:31.330 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:31.330 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.331 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.332 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.332 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.332 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.332 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.383 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.402 nvim.86995.0 log_key:1099: input: <e>
+DBG 2022-07-25T08:51:31.402 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:31.402 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.403 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.404 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.404 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.404 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.404 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.404 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.456 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.461 nvim.86995.0 log_key:1099: input: <CR>
+DBG 2022-07-25T08:51:31.462 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:31.462 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.462 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.462 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.465 nvim.86995.0 process_spawn:123: new: pid=87002 argv=[/usr/bin/git]
+DBG 2022-07-25T08:51:31.465 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:31.465 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:31.465 nvim.86995.0 UI: mouse_on
+DBG 2022-07-25T08:51:31.465 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.472 nvim.86995.0 read_cb:118: closing Stream (0x16b5b7668): EOF (end of file)
+DBG 2022-07-25T08:51:31.472 nvim.86995.0 read_cb:118: closing Stream (0x16b5b74b8): EOF (end of file)
+INF 2022-07-25T08:51:31.472 nvim.86995.0 on_process_exit:402: exited: pid=87002 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.472 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b74b8
+DBG 2022-07-25T08:51:31.472 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b7668
+DBG 2022-07-25T08:51:31.473 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:31.474 nvim.86995.0 process_spawn:123: new: pid=87003 argv=[/opt/homebrew/bin/python3]
+DBG 2022-07-25T08:51:31.474 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:31.474 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.491 nvim.86995.0 read_cb:118: closing Stream (0x16b5b1f08): EOF (end of file)
+DBG 2022-07-25T08:51:31.491 nvim.86995.0 read_cb:118: closing Stream (0x16b5b1d58): EOF (end of file)
+INF 2022-07-25T08:51:31.491 nvim.86995.0 on_process_exit:402: exited: pid=87003 status=2 stoptime=0
+DBG 2022-07-25T08:51:31.491 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b1d58
+DBG 2022-07-25T08:51:31.491 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b1f08
+DBG 2022-07-25T08:51:31.491 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:31.492 nvim.86995.0 process_spawn:123: new: pid=87004 argv=[/opt/homebrew/bin/python3.9]
+DBG 2022-07-25T08:51:31.492 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:31.492 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.508 nvim.86995.0 read_cb:118: closing Stream (0x16b5b1f08): EOF (end of file)
+DBG 2022-07-25T08:51:31.508 nvim.86995.0 read_cb:118: closing Stream (0x16b5b1d58): EOF (end of file)
+INF 2022-07-25T08:51:31.508 nvim.86995.0 on_process_exit:402: exited: pid=87004 status=2 stoptime=0
+DBG 2022-07-25T08:51:31.509 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b1d58
+DBG 2022-07-25T08:51:31.509 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b1f08
+DBG 2022-07-25T08:51:31.509 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:31.511 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.528 nvim.86995.0 emsg_multiline:690: (:silent) E31: No such mapping (function <SNR>9_update[1]..<SNR>9_update_impl[53]..<SNR>9_prepare (line 31))
+DBG 2022-07-25T08:51:31.537 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.537 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.546 nvim.86995.0 UI: raw_line (+187 times...)
+DBG 2022-07-25T08:51:31.546 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:31.551 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.563 nvim.86995.0 UI: raw_line (+111 times...)
+DBG 2022-07-25T08:51:31.563 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.563 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.563 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.563 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.564 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.564 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.566 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:31.566 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:31.576 nvim.86995.0 UI: hl_attr_define (+1 times...)
+DBG 2022-07-25T08:51:31.576 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.576 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.577 nvim.86995.0 process_spawn:123: new: pid=87005 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.577 nvim.86995.0 channel_create_event:210: new channel 3 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 3, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.577 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.578 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.578 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:31.578 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.578 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.579 nvim.86995.0 process_spawn:123: new: pid=87006 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.579 nvim.86995.0 channel_create_event:210: new channel 4 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 4, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.579 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.579 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.580 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:31.580 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.580 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.580 nvim.86995.0 process_spawn:123: new: pid=87007 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.581 nvim.86995.0 channel_create_event:210: new channel 5 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 5, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.581 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.581 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.582 nvim.86995.0 UI: raw_line (+7 times...)
+DBG 2022-07-25T08:51:31.582 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.582 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.582 nvim.86995.0 process_spawn:123: new: pid=87008 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.583 nvim.86995.0 channel_create_event:210: new channel 6 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 6, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.583 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.583 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.584 nvim.86995.0 UI: raw_line (+9 times...)
+DBG 2022-07-25T08:51:31.584 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.584 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.585 nvim.86995.0 process_spawn:123: new: pid=87011 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.585 nvim.86995.0 channel_create_event:210: new channel 7 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 7, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.585 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.586 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.586 nvim.86995.0 UI: raw_line (+11 times...)
+DBG 2022-07-25T08:51:31.586 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.587 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.587 nvim.86995.0 process_spawn:123: new: pid=87015 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.587 nvim.86995.0 channel_create_event:210: new channel 8 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 8, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.588 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.588 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.589 nvim.86995.0 UI: raw_line (+13 times...)
+DBG 2022-07-25T08:51:31.589 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.589 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.590 nvim.86995.0 process_spawn:123: new: pid=87018 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.590 nvim.86995.0 channel_create_event:210: new channel 9 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 9, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.590 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.591 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.592 nvim.86995.0 UI: raw_line (+15 times...)
+DBG 2022-07-25T08:51:31.592 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.592 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.593 nvim.86995.0 process_spawn:123: new: pid=87021 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.593 nvim.86995.0 channel_create_event:210: new channel 10 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 10, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.594 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.594 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.596 nvim.86995.0 UI: raw_line (+17 times...)
+DBG 2022-07-25T08:51:31.596 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.596 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.597 nvim.86995.0 process_spawn:123: new: pid=87025 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.597 nvim.86995.0 channel_create_event:210: new channel 11 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 11, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.597 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.598 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.599 nvim.86995.0 UI: raw_line (+19 times...)
+DBG 2022-07-25T08:51:31.599 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.599 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.600 nvim.86995.0 process_spawn:123: new: pid=87028 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.600 nvim.86995.0 channel_create_event:210: new channel 12 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 12, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.601 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.601 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.603 nvim.86995.0 UI: raw_line (+21 times...)
+DBG 2022-07-25T08:51:31.603 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.603 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.604 nvim.86995.0 process_spawn:123: new: pid=87031 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.604 nvim.86995.0 channel_create_event:210: new channel 13 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 13, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.604 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.605 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.606 nvim.86995.0 UI: raw_line (+23 times...)
+DBG 2022-07-25T08:51:31.606 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.606 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.607 nvim.86995.0 process_spawn:123: new: pid=87035 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.607 nvim.86995.0 channel_create_event:210: new channel 14 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 14, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.608 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.608 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.610 nvim.86995.0 UI: raw_line (+25 times...)
+DBG 2022-07-25T08:51:31.610 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.610 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.611 nvim.86995.0 process_spawn:123: new: pid=87038 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.611 nvim.86995.0 channel_create_event:210: new channel 15 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 15, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.612 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.612 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.614 nvim.86995.0 UI: raw_line (+27 times...)
+DBG 2022-07-25T08:51:31.614 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.614 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.615 nvim.86995.0 process_spawn:123: new: pid=87041 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.615 nvim.86995.0 channel_create_event:210: new channel 16 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 16, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.616 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.616 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.618 nvim.86995.0 UI: raw_line (+29 times...)
+DBG 2022-07-25T08:51:31.618 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.618 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.619 nvim.86995.0 process_spawn:123: new: pid=87044 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.619 nvim.86995.0 channel_create_event:210: new channel 17 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 17, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.619 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.620 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.622 nvim.86995.0 UI: raw_line (+31 times...)
+DBG 2022-07-25T08:51:31.622 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.622 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 process_spawn:123: new: pid=87047 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.623 nvim.86995.0 channel_create_event:210: new channel 18 (function <SNR>9_update[1]..<SNR>9_update_impl[114]..<SNR>9_update_vim[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 18, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.623 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.624 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.624 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.675 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.675 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.675 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.727 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:31.964 nvim.86995.0 read_cb:118: closing Stream (0x13300e7c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.964 nvim.86995.0 read_cb:118: closing Stream (0x13300e618): EOF (end of file)
+DBG 2022-07-25T08:51:31.965 nvim.86995.0 log_key:1099: input: K_EVENT
+INF 2022-07-25T08:51:31.965 nvim.86995.0 on_process_exit:402: exited: pid=87015 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.965 nvim.86995.0 stream_close:107: closing Stream: 0x13300e468
+DBG 2022-07-25T08:51:31.966 nvim.86995.0 stream_close:107: closing Stream: 0x13300e618
+DBG 2022-07-25T08:51:31.966 nvim.86995.0 stream_close:107: closing Stream: 0x13300e7c8
+DBG 2022-07-25T08:51:31.966 nvim.86995.0 UI: flush (+4 times...)
+DBG 2022-07-25T08:51:31.966 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.968 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.970 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:31.970 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.970 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.970 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:31.970 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:31.971 nvim.86995.0 read_cb:118: closing Stream (0x13300d7c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.971 nvim.86995.0 read_cb:118: closing Stream (0x13300d618): EOF (end of file)
+DBG 2022-07-25T08:51:31.971 nvim.86995.0 read_cb:118: closing Stream (0x1340a5dc8): EOF (end of file)
+DBG 2022-07-25T08:51:31.972 nvim.86995.0 read_cb:118: closing Stream (0x1340a5c18): EOF (end of file)
+INF 2022-07-25T08:51:31.972 nvim.86995.0 on_process_exit:402: exited: pid=87006 status=0 stoptime=0
+INF 2022-07-25T08:51:31.972 nvim.86995.0 on_process_exit:402: exited: pid=87007 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.972 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.972 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.975 nvim.86995.0 UI: raw_line (+37 times...)
+DBG 2022-07-25T08:51:31.975 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.975 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.976 nvim.86995.0 process_spawn:123: new: pid=87072 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.976 nvim.86995.0 channel_create_event:210: new channel 19 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 19, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x1340a5a68
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x1340a5c18
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x1340a5dc8
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x13300d468
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x13300d618
+DBG 2022-07-25T08:51:31.978 nvim.86995.0 stream_close:107: closing Stream: 0x13300d7c8
+DBG 2022-07-25T08:51:31.980 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.980 nvim.86995.0 read_cb:118: closing Stream (0x13487b1c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.980 nvim.86995.0 read_cb:118: closing Stream (0x13487b018): EOF (end of file)
+DBG 2022-07-25T08:51:31.980 nvim.86995.0 read_cb:118: closing Stream (0x1230095c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.980 nvim.86995.0 read_cb:118: closing Stream (0x123009418): EOF (end of file)
+INF 2022-07-25T08:51:31.980 nvim.86995.0 on_process_exit:402: exited: pid=87005 status=0 stoptime=0
+INF 2022-07-25T08:51:31.980 nvim.86995.0 on_process_exit:402: exited: pid=87008 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.981 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.984 nvim.86995.0 read_cb:118: closing Stream (0x11080c5c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.984 nvim.86995.0 read_cb:118: closing Stream (0x11080c418): EOF (end of file)
+INF 2022-07-25T08:51:31.984 nvim.86995.0 on_process_exit:402: exited: pid=87031 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.984 nvim.86995.0 read_cb:118: closing Stream (0x13487b9c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.984 nvim.86995.0 read_cb:118: closing Stream (0x13487b818): EOF (end of file)
+INF 2022-07-25T08:51:31.985 nvim.86995.0 on_process_exit:402: exited: pid=87041 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.985 nvim.86995.0 UI: raw_line (+39 times...)
+DBG 2022-07-25T08:51:31.986 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.986 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.987 nvim.86995.0 process_spawn:123: new: pid=87088 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.987 nvim.86995.0 channel_create_event:210: new channel 20 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 20, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.989 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.990 nvim.86995.0 read_cb:118: closing Stream (0x11081d3c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.990 nvim.86995.0 read_cb:118: closing Stream (0x11081d218): EOF (end of file)
+DBG 2022-07-25T08:51:31.990 nvim.86995.0 read_cb:118: closing Stream (0x1348827c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.990 nvim.86995.0 read_cb:118: closing Stream (0x134882618): EOF (end of file)
+INF 2022-07-25T08:51:31.990 nvim.86995.0 on_process_exit:402: exited: pid=87025 status=0 stoptime=0
+INF 2022-07-25T08:51:31.990 nvim.86995.0 on_process_exit:402: exited: pid=87044 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.990 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:31.993 nvim.86995.0 UI: raw_line (+41 times...)
+DBG 2022-07-25T08:51:31.993 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:31.993 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:31.994 nvim.86995.0 read_cb:118: closing Stream (0x110808fc8): EOF (end of file)
+DBG 2022-07-25T08:51:31.994 nvim.86995.0 read_cb:118: closing Stream (0x110808e18): EOF (end of file)
+INF 2022-07-25T08:51:31.994 nvim.86995.0 on_process_exit:402: exited: pid=87028 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 process_spawn:123: new: pid=87100 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:31.995 nvim.86995.0 channel_create_event:210: new channel 21 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 21, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x12300adc8): EOF (end of file)
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x12300ac18): EOF (end of file)
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x13300a7c8): EOF (end of file)
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x13300a618): EOF (end of file)
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x13300dfc8): EOF (end of file)
+DBG 2022-07-25T08:51:31.995 nvim.86995.0 read_cb:118: closing Stream (0x13300de18): EOF (end of file)
+INF 2022-07-25T08:51:31.995 nvim.86995.0 on_process_exit:402: exited: pid=87011 status=0 stoptime=0
+INF 2022-07-25T08:51:31.995 nvim.86995.0 on_process_exit:402: exited: pid=87018 status=0 stoptime=0
+INF 2022-07-25T08:51:31.995 nvim.86995.0 on_process_exit:402: exited: pid=87047 status=0 stoptime=0
+DBG 2022-07-25T08:51:31.996 nvim.86995.0 stream_close:107: closing Stream: 0x13487ae68
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x13487b018
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x13487b1c8
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x123009268
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x123009418
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x1230095c8
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x11080c268
+DBG 2022-07-25T08:51:31.997 nvim.86995.0 stream_close:107: closing Stream: 0x11080c418
+DBG 2022-07-25T08:51:31.998 nvim.86995.0 stream_close:107: closing Stream: 0x11080c5c8
+DBG 2022-07-25T08:51:31.998 nvim.86995.0 stream_close:107: closing Stream: 0x13487b668
+DBG 2022-07-25T08:51:31.998 nvim.86995.0 stream_close:107: closing Stream: 0x13487b818
+DBG 2022-07-25T08:51:31.998 nvim.86995.0 stream_close:107: closing Stream: 0x13487b9c8
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x11081d068
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x11081d218
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x11081d3c8
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x134882468
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x134882618
+DBG 2022-07-25T08:51:31.999 nvim.86995.0 stream_close:107: closing Stream: 0x1348827c8
+DBG 2022-07-25T08:51:32.000 nvim.86995.0 stream_close:107: closing Stream: 0x110808c68
+DBG 2022-07-25T08:51:32.000 nvim.86995.0 stream_close:107: closing Stream: 0x110808e18
+DBG 2022-07-25T08:51:32.000 nvim.86995.0 stream_close:107: closing Stream: 0x110808fc8
+DBG 2022-07-25T08:51:32.000 nvim.86995.0 read_cb:118: closing Stream (0x11080cdc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.001 nvim.86995.0 read_cb:118: closing Stream (0x11080cc18): EOF (end of file)
+INF 2022-07-25T08:51:32.001 nvim.86995.0 on_process_exit:402: exited: pid=87038 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.001 nvim.86995.0 stream_close:107: closing Stream: 0x13300dc68
+DBG 2022-07-25T08:51:32.001 nvim.86995.0 stream_close:107: closing Stream: 0x13300de18
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x13300dfc8
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x13300a468
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x13300a618
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x13300a7c8
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x12300aa68
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x12300ac18
+DBG 2022-07-25T08:51:32.002 nvim.86995.0 stream_close:107: closing Stream: 0x12300adc8
+DBG 2022-07-25T08:51:32.003 nvim.86995.0 stream_close:107: closing Stream: 0x11080ca68
+DBG 2022-07-25T08:51:32.003 nvim.86995.0 stream_close:107: closing Stream: 0x11080cc18
+DBG 2022-07-25T08:51:32.003 nvim.86995.0 stream_close:107: closing Stream: 0x11080cdc8
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 read_cb:118: closing Stream (0x12300ffc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 read_cb:118: closing Stream (0x12300fe18): EOF (end of file)
+INF 2022-07-25T08:51:32.004 nvim.86995.0 on_process_exit:402: exited: pid=87021 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 read_cb:118: closing Stream (0x13300cdc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.004 nvim.86995.0 read_cb:118: closing Stream (0x13300cc18): EOF (end of file)
+INF 2022-07-25T08:51:32.004 nvim.86995.0 on_process_exit:402: exited: pid=87035 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.006 nvim.86995.0 UI: raw_line (+43 times...)
+DBG 2022-07-25T08:51:32.006 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.006 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.007 nvim.86995.0 process_spawn:123: new: pid=87110 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.007 nvim.86995.0 channel_create_event:210: new channel 22 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 22, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.008 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.008 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.010 nvim.86995.0 UI: raw_line (+45 times...)
+DBG 2022-07-25T08:51:32.010 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.010 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.011 nvim.86995.0 process_spawn:123: new: pid=87111 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.011 nvim.86995.0 channel_create_event:210: new channel 23 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 23, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.012 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.012 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.015 nvim.86995.0 UI: raw_line (+47 times...)
+DBG 2022-07-25T08:51:32.015 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.015 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.015 nvim.86995.0 process_spawn:123: new: pid=87114 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.015 nvim.86995.0 channel_create_event:210: new channel 24 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 24, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.016 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.016 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.019 nvim.86995.0 UI: raw_line (+49 times...)
+DBG 2022-07-25T08:51:32.019 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.019 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.020 nvim.86995.0 process_spawn:123: new: pid=87117 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.020 nvim.86995.0 channel_create_event:210: new channel 25 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 25, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.021 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.021 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.024 nvim.86995.0 UI: raw_line (+51 times...)
+DBG 2022-07-25T08:51:32.024 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.024 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.025 nvim.86995.0 process_spawn:123: new: pid=87120 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.025 nvim.86995.0 channel_create_event:210: new channel 26 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 26, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.026 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.026 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.029 nvim.86995.0 UI: raw_line (+53 times...)
+DBG 2022-07-25T08:51:32.029 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.029 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.030 nvim.86995.0 process_spawn:123: new: pid=87123 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.030 nvim.86995.0 channel_create_event:210: new channel 27 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 27, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.031 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.031 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.034 nvim.86995.0 UI: raw_line (+55 times...)
+DBG 2022-07-25T08:51:32.034 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.034 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.035 nvim.86995.0 process_spawn:123: new: pid=87126 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.035 nvim.86995.0 channel_create_event:210: new channel 28 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 28, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.036 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.036 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.039 nvim.86995.0 UI: raw_line (+57 times...)
+DBG 2022-07-25T08:51:32.039 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.040 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.040 nvim.86995.0 process_spawn:123: new: pid=87129 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.040 nvim.86995.0 channel_create_event:210: new channel 29 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 29, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.042 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.042 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.045 nvim.86995.0 UI: raw_line (+59 times...)
+DBG 2022-07-25T08:51:32.045 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.045 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.046 nvim.86995.0 process_spawn:123: new: pid=87132 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.046 nvim.86995.0 channel_create_event:210: new channel 30 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 30, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.047 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.047 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.051 nvim.86995.0 UI: raw_line (+61 times...)
+DBG 2022-07-25T08:51:32.051 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.051 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.052 nvim.86995.0 process_spawn:123: new: pid=87135 argv=[/usr/bin/git]
+INF 2022-07-25T08:51:32.052 nvim.86995.0 channel_create_event:210: new channel 31 (function <SNR>9_nvim_cb[1]..<SNR>9_job_cb[4]..<SNR>9_job_exit_cb[4]..<SNR>9_tick[31]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 31, "argv": ["/usr/bin/git", "-c", "credential.helper=", "fetch", "--progress"], "mode": "bytes", "stream": "job"}
+DBG 2022-07-25T08:51:32.053 nvim.86995.0 stream_close:107: closing Stream: 0x12300fc68
+DBG 2022-07-25T08:51:32.053 nvim.86995.0 stream_close:107: closing Stream: 0x12300fe18
+DBG 2022-07-25T08:51:32.053 nvim.86995.0 stream_close:107: closing Stream: 0x12300ffc8
+DBG 2022-07-25T08:51:32.053 nvim.86995.0 stream_close:107: closing Stream: 0x13300ca68
+DBG 2022-07-25T08:51:32.054 nvim.86995.0 stream_close:107: closing Stream: 0x13300cc18
+DBG 2022-07-25T08:51:32.054 nvim.86995.0 stream_close:107: closing Stream: 0x13300cdc8
+DBG 2022-07-25T08:51:32.055 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.056 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.059 nvim.86995.0 UI: raw_line (+9 times...)
+DBG 2022-07-25T08:51:32.059 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.059 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.059 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.059 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.111 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.381 nvim.86995.0 read_cb:118: closing Stream (0x134040dc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.381 nvim.86995.0 read_cb:118: closing Stream (0x134040c18): EOF (end of file)
+DBG 2022-07-25T08:51:32.381 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.382 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.382 nvim.86995.0 UI: win_viewport
+INF 2022-07-25T08:51:32.382 nvim.86995.0 on_process_exit:402: exited: pid=87088 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.385 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.385 nvim.86995.0 read_cb:118: closing Stream (0x11200f1c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.385 nvim.86995.0 read_cb:118: closing Stream (0x11200f018): EOF (end of file)
+INF 2022-07-25T08:51:32.385 nvim.86995.0 on_process_exit:402: exited: pid=87072 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 read_cb:118: closing Stream (0x1348791c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 read_cb:118: closing Stream (0x134879018): EOF (end of file)
+INF 2022-07-25T08:51:32.388 nvim.86995.0 on_process_exit:402: exited: pid=87111 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 stream_close:107: closing Stream: 0x134040a68
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 stream_close:107: closing Stream: 0x134040c18
+DBG 2022-07-25T08:51:32.388 nvim.86995.0 stream_close:107: closing Stream: 0x134040dc8
+DBG 2022-07-25T08:51:32.389 nvim.86995.0 stream_close:107: closing Stream: 0x11200ee68
+DBG 2022-07-25T08:51:32.389 nvim.86995.0 stream_close:107: closing Stream: 0x11200f018
+DBG 2022-07-25T08:51:32.389 nvim.86995.0 stream_close:107: closing Stream: 0x11200f1c8
+DBG 2022-07-25T08:51:32.390 nvim.86995.0 stream_close:107: closing Stream: 0x134878e68
+DBG 2022-07-25T08:51:32.390 nvim.86995.0 stream_close:107: closing Stream: 0x134879018
+DBG 2022-07-25T08:51:32.390 nvim.86995.0 stream_close:107: closing Stream: 0x1348791c8
+DBG 2022-07-25T08:51:32.392 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.392 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.397 nvim.86995.0 UI: raw_line (+9 times...)
+DBG 2022-07-25T08:51:32.397 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.397 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.397 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.397 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.398 nvim.86995.0 read_cb:118: closing Stream (0x11000bdc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.398 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.399 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.399 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.399 nvim.86995.0 read_cb:118: closing Stream (0x11000bc18): EOF (end of file)
+INF 2022-07-25T08:51:32.399 nvim.86995.0 on_process_exit:402: exited: pid=87100 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.401 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.403 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.403 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.403 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.403 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.403 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.404 nvim.86995.0 stream_close:107: closing Stream: 0x11000ba68
+DBG 2022-07-25T08:51:32.404 nvim.86995.0 stream_close:107: closing Stream: 0x11000bc18
+DBG 2022-07-25T08:51:32.404 nvim.86995.0 stream_close:107: closing Stream: 0x11000bdc8
+DBG 2022-07-25T08:51:32.404 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.404 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.405 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.405 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.405 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.409 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:32.409 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.409 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.409 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.409 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.410 nvim.86995.0 read_cb:118: closing Stream (0x13300f7c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.410 nvim.86995.0 read_cb:118: closing Stream (0x13300f618): EOF (end of file)
+DBG 2022-07-25T08:51:32.411 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.411 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.411 nvim.86995.0 UI: win_viewport
+INF 2022-07-25T08:51:32.411 nvim.86995.0 on_process_exit:402: exited: pid=87110 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.413 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 stream_close:107: closing Stream: 0x13300f468
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 stream_close:107: closing Stream: 0x13300f618
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 stream_close:107: closing Stream: 0x13300f7c8
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.415 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.416 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.416 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.416 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.420 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:32.420 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.420 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.420 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.420 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.434 nvim.86995.0 read_cb:118: closing Stream (0x1340ab7c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.434 nvim.86995.0 read_cb:118: closing Stream (0x1340ab618): EOF (end of file)
+DBG 2022-07-25T08:51:32.434 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.434 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.435 nvim.86995.0 UI: win_viewport
+INF 2022-07-25T08:51:32.435 nvim.86995.0 on_process_exit:402: exited: pid=87126 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.435 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.437 nvim.86995.0 read_cb:118: closing Stream (0x1108085c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.438 nvim.86995.0 read_cb:118: closing Stream (0x110808418): EOF (end of file)
+INF 2022-07-25T08:51:32.438 nvim.86995.0 on_process_exit:402: exited: pid=87117 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.438 nvim.86995.0 read_cb:118: closing Stream (0x1340a9fc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.438 nvim.86995.0 read_cb:118: closing Stream (0x1340a9e18): EOF (end of file)
+INF 2022-07-25T08:51:32.439 nvim.86995.0 on_process_exit:402: exited: pid=87120 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x1340ab468
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x1340ab618
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x1340ab7c8
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 read_cb:118: closing Stream (0x1340a57c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 read_cb:118: closing Stream (0x1340a5618): EOF (end of file)
+INF 2022-07-25T08:51:32.439 nvim.86995.0 on_process_exit:402: exited: pid=87114 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x110808268
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x110808418
+DBG 2022-07-25T08:51:32.439 nvim.86995.0 stream_close:107: closing Stream: 0x1108085c8
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a9c68
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a9e18
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a9fc8
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a5468
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a5618
+DBG 2022-07-25T08:51:32.440 nvim.86995.0 stream_close:107: closing Stream: 0x1340a57c8
+DBG 2022-07-25T08:51:32.442 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.442 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.444 nvim.86995.0 read_cb:118: closing Stream (0x1340a49c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.444 nvim.86995.0 read_cb:118: closing Stream (0x1340a4818): EOF (end of file)
+INF 2022-07-25T08:51:32.444 nvim.86995.0 on_process_exit:402: exited: pid=87123 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 UI: raw_line (+11 times...)
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 stream_close:107: closing Stream: 0x1340a4668
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 stream_close:107: closing Stream: 0x1340a4818
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 stream_close:107: closing Stream: 0x1340a49c8
+DBG 2022-07-25T08:51:32.446 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.447 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.450 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.454 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:32.454 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.454 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.454 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.454 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:32.459 nvim.86995.0 read_cb:118: closing Stream (0x12300b5c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.459 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.459 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.459 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.459 nvim.86995.0 read_cb:118: closing Stream (0x12300b418): EOF (end of file)
+INF 2022-07-25T08:51:32.459 nvim.86995.0 on_process_exit:402: exited: pid=87129 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.460 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 stream_close:107: closing Stream: 0x12300b268
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 stream_close:107: closing Stream: 0x12300b418
+DBG 2022-07-25T08:51:32.463 nvim.86995.0 stream_close:107: closing Stream: 0x12300b5c8
+DBG 2022-07-25T08:51:32.464 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.464 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.464 nvim.86995.0 UI: flush (+1 times...)
+DBG 2022-07-25T08:51:32.464 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.464 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.465 nvim.86995.0 read_cb:118: closing Stream (0x1340abfc8): EOF (end of file)
+DBG 2022-07-25T08:51:32.465 nvim.86995.0 read_cb:118: closing Stream (0x1340abe18): EOF (end of file)
+DBG 2022-07-25T08:51:32.465 nvim.86995.0 read_cb:118: closing Stream (0x13300e7c8): EOF (end of file)
+DBG 2022-07-25T08:51:32.465 nvim.86995.0 read_cb:118: closing Stream (0x13300e618): EOF (end of file)
+INF 2022-07-25T08:51:32.465 nvim.86995.0 on_process_exit:402: exited: pid=87132 status=0 stoptime=0
+INF 2022-07-25T08:51:32.465 nvim.86995.0 on_process_exit:402: exited: pid=87135 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.468 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:32.468 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.468 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.468 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:32.468 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x13300e468
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x13300e618
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x13300e7c8
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x1340abc68
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x1340abe18
+DBG 2022-07-25T08:51:32.469 nvim.86995.0 stream_close:107: closing Stream: 0x1340abfc8
+DBG 2022-07-25T08:51:32.470 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.470 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.471 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:32.471 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:32.471 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.486 nvim.86995.0 UI: raw_line (+59 times...)
+DBG 2022-07-25T08:51:32.486 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.486 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.487 nvim.86995.0 process_spawn:123: new: pid=87188 argv=[sh]
+DBG 2022-07-25T08:51:32.487 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.487 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.502 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.503 nvim.86995.0 on_process_exit:402: exited: pid=87188 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.503 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.504 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.504 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.504 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.504 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.504 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.505 nvim.86995.0 process_spawn:123: new: pid=87200 argv=[sh]
+DBG 2022-07-25T08:51:32.505 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.505 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.520 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.520 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.520 nvim.86995.0 on_process_exit:402: exited: pid=87200 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.520 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.520 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.520 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.521 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.521 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.521 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.521 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.521 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.522 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.522 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.522 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.522 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.523 nvim.86995.0 process_spawn:123: new: pid=87212 argv=[sh]
+DBG 2022-07-25T08:51:32.523 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.523 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.539 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.539 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.539 nvim.86995.0 on_process_exit:402: exited: pid=87212 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.539 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.539 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.539 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.540 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.540 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.540 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.540 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.540 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.541 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.541 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.541 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.541 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.541 nvim.86995.0 process_spawn:123: new: pid=87224 argv=[sh]
+DBG 2022-07-25T08:51:32.542 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.542 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.556 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.556 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.556 nvim.86995.0 on_process_exit:402: exited: pid=87224 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.556 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.556 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.556 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.557 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.557 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.557 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.557 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.557 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.558 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.558 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.558 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.558 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.559 nvim.86995.0 process_spawn:123: new: pid=87236 argv=[sh]
+DBG 2022-07-25T08:51:32.559 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.559 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.574 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.574 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.574 nvim.86995.0 on_process_exit:402: exited: pid=87236 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.575 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.576 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.576 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.576 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.576 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.576 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.577 nvim.86995.0 process_spawn:123: new: pid=87248 argv=[sh]
+DBG 2022-07-25T08:51:32.577 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.577 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.592 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.592 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.592 nvim.86995.0 on_process_exit:402: exited: pid=87248 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.592 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.592 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.592 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.593 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.593 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.593 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.593 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.593 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.594 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.594 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.594 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.594 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.594 nvim.86995.0 process_spawn:123: new: pid=87260 argv=[sh]
+DBG 2022-07-25T08:51:32.595 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.595 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.611 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.611 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.611 nvim.86995.0 on_process_exit:402: exited: pid=87260 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.611 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.611 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.612 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.612 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.612 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.612 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.612 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.613 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.613 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.613 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.613 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.613 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.614 nvim.86995.0 process_spawn:123: new: pid=87272 argv=[sh]
+DBG 2022-07-25T08:51:32.614 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.614 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.630 nvim.86995.0 on_process_exit:402: exited: pid=87272 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.630 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.631 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.631 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.631 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.631 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.631 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.632 nvim.86995.0 process_spawn:123: new: pid=87284 argv=[sh]
+DBG 2022-07-25T08:51:32.632 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.632 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.647 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.647 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.647 nvim.86995.0 on_process_exit:402: exited: pid=87284 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.647 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.647 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.647 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.648 nvim.86995.0 process_spawn:123: new: pid=87296 argv=[sh]
+DBG 2022-07-25T08:51:32.648 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.648 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.656 nvim.86995.0 read_cb:118: closing Stream (0x16b5b21e8): EOF (end of file)
+DBG 2022-07-25T08:51:32.656 nvim.86995.0 read_cb:118: closing Stream (0x16b5b2038): EOF (end of file)
+INF 2022-07-25T08:51:32.656 nvim.86995.0 on_process_exit:402: exited: pid=87296 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.656 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b2038
+DBG 2022-07-25T08:51:32.656 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b21e8
+DBG 2022-07-25T08:51:32.656 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.657 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.657 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.657 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.657 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.658 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.658 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.658 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.658 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.658 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.659 nvim.86995.0 process_spawn:123: new: pid=87307 argv=[sh]
+DBG 2022-07-25T08:51:32.659 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.659 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.674 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.674 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.674 nvim.86995.0 on_process_exit:402: exited: pid=87307 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.674 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.674 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.674 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.675 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.675 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.675 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.675 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.675 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.676 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.676 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.676 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.676 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.676 nvim.86995.0 process_spawn:123: new: pid=87319 argv=[sh]
+DBG 2022-07-25T08:51:32.677 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.677 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.691 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.691 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.691 nvim.86995.0 on_process_exit:402: exited: pid=87319 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.691 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.691 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.692 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.692 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.692 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.692 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.692 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.693 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.693 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.693 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.693 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.693 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.694 nvim.86995.0 process_spawn:123: new: pid=87331 argv=[sh]
+DBG 2022-07-25T08:51:32.694 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.694 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.710 nvim.86995.0 on_process_exit:402: exited: pid=87331 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.710 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.711 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.712 nvim.86995.0 process_spawn:123: new: pid=87343 argv=[sh]
+DBG 2022-07-25T08:51:32.712 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.712 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.727 nvim.86995.0 on_process_exit:402: exited: pid=87343 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.727 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.728 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.729 nvim.86995.0 process_spawn:123: new: pid=87355 argv=[sh]
+DBG 2022-07-25T08:51:32.729 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.729 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.745 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.745 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.745 nvim.86995.0 on_process_exit:402: exited: pid=87355 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.745 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.745 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.745 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.746 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 process_spawn:123: new: pid=87367 argv=[sh]
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.747 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.762 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.762 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.762 nvim.86995.0 on_process_exit:402: exited: pid=87367 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.762 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.762 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.762 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.763 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.764 nvim.86995.0 process_spawn:123: new: pid=87379 argv=[sh]
+DBG 2022-07-25T08:51:32.764 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.764 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.780 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.780 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.780 nvim.86995.0 on_process_exit:402: exited: pid=87379 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.780 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.780 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.780 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.781 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.781 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.781 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.781 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.781 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 process_spawn:123: new: pid=87391 argv=[sh]
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.782 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.797 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.797 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.797 nvim.86995.0 on_process_exit:402: exited: pid=87391 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.797 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.797 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.797 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.798 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.799 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.799 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.799 nvim.86995.0 process_spawn:123: new: pid=87403 argv=[sh]
+DBG 2022-07-25T08:51:32.799 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.799 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.814 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.814 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.814 nvim.86995.0 on_process_exit:402: exited: pid=87403 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.814 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.814 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.814 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.815 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 process_spawn:123: new: pid=87415 argv=[sh]
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.816 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.832 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.832 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.832 nvim.86995.0 on_process_exit:402: exited: pid=87415 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.832 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.832 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.833 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.833 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.833 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.833 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.833 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.834 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.834 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.834 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.834 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.834 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.835 nvim.86995.0 process_spawn:123: new: pid=87427 argv=[sh]
+DBG 2022-07-25T08:51:32.835 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.835 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.849 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.849 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.849 nvim.86995.0 on_process_exit:402: exited: pid=87427 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.850 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.851 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.851 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.851 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.851 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.851 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.852 nvim.86995.0 process_spawn:123: new: pid=87439 argv=[sh]
+DBG 2022-07-25T08:51:32.852 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.852 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.868 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.868 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.868 nvim.86995.0 on_process_exit:402: exited: pid=87439 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.868 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.868 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.868 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.869 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.870 nvim.86995.0 process_spawn:123: new: pid=87451 argv=[sh]
+DBG 2022-07-25T08:51:32.870 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.870 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.886 nvim.86995.0 on_process_exit:402: exited: pid=87451 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.886 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.887 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.887 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.887 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.887 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.887 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.888 nvim.86995.0 process_spawn:123: new: pid=87463 argv=[sh]
+DBG 2022-07-25T08:51:32.888 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.888 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.902 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.902 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.902 nvim.86995.0 on_process_exit:402: exited: pid=87463 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.903 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.904 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.905 nvim.86995.0 process_spawn:123: new: pid=87475 argv=[sh]
+DBG 2022-07-25T08:51:32.905 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.905 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.921 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.921 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.921 nvim.86995.0 on_process_exit:402: exited: pid=87475 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.921 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.921 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.921 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.922 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.922 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.922 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.922 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.922 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.923 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.923 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.923 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.923 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.924 nvim.86995.0 process_spawn:123: new: pid=87487 argv=[sh]
+DBG 2022-07-25T08:51:32.924 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.924 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.939 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.939 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.939 nvim.86995.0 on_process_exit:402: exited: pid=87487 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.939 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.939 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.939 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.940 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.940 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.940 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.940 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.940 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.941 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.941 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.941 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.941 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.942 nvim.86995.0 process_spawn:123: new: pid=87499 argv=[sh]
+DBG 2022-07-25T08:51:32.942 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.942 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.957 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.957 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.957 nvim.86995.0 on_process_exit:402: exited: pid=87499 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.958 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.959 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.959 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.959 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.959 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.959 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.960 nvim.86995.0 process_spawn:123: new: pid=87511 argv=[sh]
+DBG 2022-07-25T08:51:32.960 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.960 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.975 nvim.86995.0 on_process_exit:402: exited: pid=87511 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.975 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.976 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.977 nvim.86995.0 process_spawn:123: new: pid=87523 argv=[sh]
+DBG 2022-07-25T08:51:32.977 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.977 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:32.993 nvim.86995.0 on_process_exit:402: exited: pid=87523 status=0 stoptime=0
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:32.993 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:32.994 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:32.995 nvim.86995.0 process_spawn:123: new: pid=87535 argv=[sh]
+DBG 2022-07-25T08:51:32.995 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:32.995 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.010 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6f78): EOF (end of file)
+DBG 2022-07-25T08:51:33.010 nvim.86995.0 read_cb:118: closing Stream (0x16b5b6dc8): EOF (end of file)
+INF 2022-07-25T08:51:33.010 nvim.86995.0 on_process_exit:402: exited: pid=87535 status=0 stoptime=0
+DBG 2022-07-25T08:51:33.010 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6dc8
+DBG 2022-07-25T08:51:33.010 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b6f78
+DBG 2022-07-25T08:51:33.010 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:33.011 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.011 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.011 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.011 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.012 nvim.86995.0 process_spawn:123: new: pid=87547 argv=[sh]
+DBG 2022-07-25T08:51:33.012 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:33.012 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.020 nvim.86995.0 read_cb:118: closing Stream (0x16b5b0938): EOF (end of file)
+DBG 2022-07-25T08:51:33.020 nvim.86995.0 read_cb:118: closing Stream (0x16b5b0788): EOF (end of file)
+INF 2022-07-25T08:51:33.020 nvim.86995.0 on_process_exit:402: exited: pid=87547 status=0 stoptime=0
+DBG 2022-07-25T08:51:33.020 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b0788
+DBG 2022-07-25T08:51:33.020 nvim.86995.0 stream_close:107: closing Stream: 0x16b5b0938
+DBG 2022-07-25T08:51:33.021 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:33.021 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.021 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.025 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.025 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.026 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.043 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.044 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.049 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.049 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.049 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.049 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.050 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.050 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.050 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 UI: raw_line (+65 times...)
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.066 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.067 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.101 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.101 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.101 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.152 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.152 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.153 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.204 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.813 nvim.86995.0 log_key:1099: input: <:>
+DBG 2022-07-25T08:51:33.813 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.814 nvim.86995.0 UI: flush (+7 times...)
+DBG 2022-07-25T08:51:33.814 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.814 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.814 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.814 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: mouse_off
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.842 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.845 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.845 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.845 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.845 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.896 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.959 nvim.86995.0 log_key:1099: input: <q>
+DBG 2022-07-25T08:51:33.959 nvim.86995.0 UI: flush (+4 times...)
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.960 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.961 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.961 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:33.962 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:33.962 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:33.962 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.014 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.060 nvim.86995.0 log_key:1099: input: <CR>
+DBG 2022-07-25T08:51:34.061 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:34.061 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.061 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.061 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.069 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:34.069 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: raw_line (+107 times...)
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:34.091 nvim.86995.0 UI: mouse_on
+DBG 2022-07-25T08:51:34.092 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.092 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.092 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.119 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.120 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.120 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.168 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.170 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.170 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.222 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.226 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.226 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.280 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.396 nvim.86995.0 log_key:1099: input: <:>
+DBG 2022-07-25T08:51:34.397 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.397 nvim.86995.0 UI: flush (+9 times...)
+DBG 2022-07-25T08:51:34.397 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.397 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:34.397 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.398 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.403 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:34.403 nvim.86995.0 UI: hl_attr_define
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: mouse_off
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.427 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.431 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.431 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.432 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.432 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.482 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.604 nvim.86995.0 log_key:1099: input: <P>
+DBG 2022-07-25T08:51:34.605 nvim.86995.0 UI: flush (+4 times...)
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.606 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.607 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.607 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.608 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.608 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.608 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.632 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.633 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.633 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.633 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.633 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.684 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.745 nvim.86995.0 log_key:1099: input: <l>
+DBG 2022-07-25T08:51:34.746 nvim.86995.0 UI: flush (+8 times...)
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.747 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.748 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.748 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.749 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.749 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.749 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.801 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.934 nvim.86995.0 log_key:1099: input: <u>
+DBG 2022-07-25T08:51:34.934 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:34.935 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:34.936 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:34.987 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.009 nvim.86995.0 log_key:1099: input: <g>
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.010 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.011 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.011 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.012 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.012 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.012 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.063 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.171 nvim.86995.0 log_key:1099: input: <U>
+DBG 2022-07-25T08:51:35.172 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.173 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.174 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.174 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.174 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.174 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.226 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.320 nvim.86995.0 log_key:1099: input: <p>
+DBG 2022-07-25T08:51:35.320 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:35.321 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.321 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.321 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.322 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.322 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.322 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.322 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.322 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.323 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.323 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.324 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.324 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.325 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.364 nvim.86995.0 log_key:1099: input: <g>
+DBG 2022-07-25T08:51:35.364 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:35.364 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.365 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.366 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.367 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.367 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.367 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.418 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.440 nvim.86995.0 log_key:1099: input: <r>
+DBG 2022-07-25T08:51:35.440 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.441 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.442 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.442 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.442 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.443 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.443 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.495 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.500 nvim.86995.0 log_key:1099: input: <a>
+DBG 2022-07-25T08:51:35.500 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:35.500 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.501 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.502 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.502 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.502 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.502 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.554 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.628 nvim.86995.0 log_key:1099: input: <d>
+DBG 2022-07-25T08:51:35.629 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:35.629 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.630 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.631 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.631 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.631 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.631 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.683 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.688 nvim.86995.0 log_key:1099: input: <e>
+DBG 2022-07-25T08:51:35.688 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:35.688 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.688 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.689 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.691 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:35.691 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:35.691 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.742 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:35.776 nvim.86995.0 log_key:1099: input: <CR>
+DBG 2022-07-25T08:51:35.776 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:35.776 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.776 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.777 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.778 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:35.803 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: win_viewport
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: mouse_on
+DBG 2022-07-25T08:51:35.804 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:35.805 nvim.86995.0 process_spawn:123: new: pid=87549 argv=[/usr/bin/git]
+DBG 2022-07-25T08:51:35.805 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:35.805 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:36.453 nvim.86995.0 read_cb:118: closing Stream (0x16b5bbda8): EOF (end of file)
+DBG 2022-07-25T08:51:36.453 nvim.86995.0 read_cb:118: closing Stream (0x16b5bbbf8): EOF (end of file)
+INF 2022-07-25T08:51:36.453 nvim.86995.0 on_process_exit:402: exited: pid=87549 status=0 stoptime=0
+DBG 2022-07-25T08:51:36.453 nvim.86995.0 stream_close:107: closing Stream: 0x16b5bbbf8
+DBG 2022-07-25T08:51:36.453 nvim.86995.0 stream_close:107: closing Stream: 0x16b5bbda8
+DBG 2022-07-25T08:51:36.454 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:36.456 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:36.457 nvim.86995.0 process_spawn:123: new: pid=87559 argv=[/bin/rm]
+DBG 2022-07-25T08:51:36.457 nvim.86995.0 UI: raw_line (+3 times...)
+DBG 2022-07-25T08:51:36.457 nvim.86995.0 UI: busy_start
+DBG 2022-07-25T08:51:36.457 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:36.457 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:36.458 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:36.463 nvim.86995.0 read_cb:118: closing Stream (0x16b5ba628): EOF (end of file)
+DBG 2022-07-25T08:51:36.463 nvim.86995.0 read_cb:118: closing Stream (0x16b5ba478): EOF (end of file)
+INF 2022-07-25T08:51:36.463 nvim.86995.0 on_process_exit:402: exited: pid=87559 status=0 stoptime=0
+DBG 2022-07-25T08:51:36.463 nvim.86995.0 stream_close:107: closing Stream: 0x16b5ba478
+DBG 2022-07-25T08:51:36.463 nvim.86995.0 stream_close:107: closing Stream: 0x16b5ba628
+DBG 2022-07-25T08:51:36.463 nvim.86995.0 UI: busy_stop
+DBG 2022-07-25T08:51:36.465 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:36.465 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:36.465 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:36.465 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:36.465 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:36.516 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:36.517 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:36.518 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:36.569 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:36.979 nvim.86995.0 log_key:1099: input: <:>
+DBG 2022-07-25T08:51:36.980 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:36.981 nvim.86995.0 UI: flush (+5 times...)
+DBG 2022-07-25T08:51:36.981 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:36.981 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:36.981 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:36.981 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: raw_line (+5 times...)
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: mouse_off
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.012 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:37.015 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.015 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:37.015 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.015 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:37.065 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:37.146 nvim.86995.0 log_key:1099: input: <q>
+DBG 2022-07-25T08:51:37.146 nvim.86995.0 UI: flush (+4 times...)
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 UI: raw_line
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 UI: raw_line (+1 times...)
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.147 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:37.148 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.148 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:37.149 nvim.86995.0 log_key:1099: input: K_EVENT
+DBG 2022-07-25T08:51:37.149 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=0 events_pending=0
+DBG 2022-07-25T08:51:37.149 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:37.201 nvim.86995.0 inbuf_poll:442: blocking... events_enabled=1 events_pending=0
+DBG 2022-07-25T08:51:37.306 nvim.86995.0 log_key:1099: input: <CR>
+DBG 2022-07-25T08:51:37.306 nvim.86995.0 UI: flush (+6 times...)
+DBG 2022-07-25T08:51:37.307 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:37.307 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:37.307 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:37.324 nvim.86995.0 UI: grid_cursor_goto
+DBG 2022-07-25T08:51:37.324 nvim.86995.0 UI: grid_cursor_goto (+1 times...)
+DBG 2022-07-25T08:51:37.324 nvim.86995.0 UI: mode_change
+DBG 2022-07-25T08:51:37.325 nvim.86995.0 UI: mouse_on
+DBG 2022-07-25T08:51:37.325 nvim.86995.0 UI: flush
+DBG 2022-07-25T08:51:37.325 nvim.86995.0 stream_close:107: closing Stream: 0x1380681e8
+DBG 2022-07-25T08:51:37.333 nvim.86995.0 UI: stop
+ERR 2022-07-25T08:51:39.333 nvim.86995.0 loop_close:155: uv_loop_close() hang?
+[--I] signal   0x104dc7858
+[-AI] async    0x104dc7600
+[R--] timer    0x600003a44000
+[R--] timer    0x600003a440a0
+[R--] timer    0x600003a44140
+INF 2022-07-25T08:51:39.334 nvim.86995.0 os_exit:605: Nvim exit: 1
