@@ -121,6 +121,8 @@ export TERM="xterm-256color"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
+export PATH="/usr/local/go/bin:$PATH"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
