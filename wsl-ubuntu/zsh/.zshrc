@@ -126,3 +126,9 @@ export PATH="/usr/local/go/bin:$PATH"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
+
+# Append this line to ~/.zshrc to enable fzf keybindings for Zsh:
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+
+# Append this line to ~/.zshrc to enable fuzzy auto-completion for Zsh:
+source /usr/share/doc/fzf/examples/completion.zsh
