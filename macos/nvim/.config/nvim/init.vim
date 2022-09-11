@@ -62,7 +62,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/playground'
 Plug 'nvim-treesitter/nvim-treesitter-context'
 
-Plug 'tpope/vim-fugitive'
+Plug 'timuntersberger/neogit'
+" Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 Plug 'mbbill/undotree'
@@ -135,7 +136,8 @@ nnoremap <leader>grom :Git rebase origin/master<CR>
 
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :G<CR>
+" nmap <leader>gs :G<CR>
+nmap <leader>gs :Neogit kind=split<CR>
 
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
