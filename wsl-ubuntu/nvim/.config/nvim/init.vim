@@ -86,6 +86,8 @@ Plug 'sbdchd/neoformat'
 
 Plug 'simrat39/symbols-outline.nvim'
 
+Plug 'ThePrimeagen/vim-be-good'
+
 call plug#end()
 
 " colorscheme tokyonight
@@ -168,6 +170,8 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 nnoremap n nzzzv
 nnoremap N Nzzzv
 nnoremap J mzJ`z
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 " Undo break points
 inoremap , ,<c-g>u
