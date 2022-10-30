@@ -33,11 +33,12 @@ cmp.setup({
         end,
     },
     mapping = {
+        ['<CR>'] = cmp.mapping.confirm({ select = true }),
         ['<C-y>'] = cmp.mapping.confirm({ select = true }),
-        ["<C-u>"] = cmp.mapping.scroll_docs(-4),
-        ["<C-d>"] = cmp.mapping.scroll_docs(4),
-        ["<C-Space>"] = cmp.mapping.complete(),
-        ["<C-n>"] = cmp.mapping.select_next_item(select_opts),
+        ['<C-u>'] = cmp.mapping.scroll_docs(-4),
+        ['<C-d>'] = cmp.mapping.scroll_docs(4),
+        ['<C-Space>'] = cmp.mapping.complete(),
+        ['<C-n>'] = cmp.mapping.select_next_item(select_opts),
     },
     formatting = {
         format = function(entry, vim_item) 
