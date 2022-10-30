@@ -86,6 +86,8 @@ Plug 'sbdchd/neoformat'
 
 Plug 'simrat39/symbols-outline.nvim'
 
+Plug 'ThePrimeagen/vim-be-good'
+
 call plug#end()
 
 " colorscheme tokyonight
@@ -119,6 +121,11 @@ nnoremap <leader>l :wincmd l<CR>
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+" greates remap ever imo
+" keep selection on indent
+vnoremap < <gv
+vnoremap > >gv
 
 " greatest remap ever
 vnoremap <leader>p "_dP
@@ -161,6 +168,7 @@ nnoremap <leader>vn :lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>vp :lua vim.diagnostic.goto_prev()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>
+inoremap <C-h> :lua vim.lsp.buf.signature_help()<CR>
 
 au BufNewFile,BufRead Jenkinsfile setf groovy
 
@@ -168,6 +176,8 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 nnoremap n nzzzv
 nnoremap N Nzzzv
 nnoremap J mzJ`z
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 " Undo break points
 inoremap , ,<c-g>u
