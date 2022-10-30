@@ -122,6 +122,11 @@ nnoremap <leader>l :wincmd l<CR>
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
+" greates remap ever imo
+" keep selection on indent
+vnoremap < <gv
+vnoremap > >gv
+
 " greatest remap ever
 vnoremap <leader>p "_dP
 
