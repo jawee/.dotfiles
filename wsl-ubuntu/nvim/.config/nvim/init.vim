@@ -168,6 +168,7 @@ nnoremap <leader>vn :lua vim.diagnostic.goto_next()<CR>
 nnoremap <leader>vp :lua vim.diagnostic.goto_prev()<CR>
 nnoremap <leader>vll :call LspLocationList()<CR>
 nnoremap <leader>vfo :lua vim.lsp.buf.formatting()<CR>
+inoremap <C-h> :lua vim.lsp.buf.signature_help()<CR>
 
 au BufNewFile,BufRead Jenkinsfile setf groovy
 
