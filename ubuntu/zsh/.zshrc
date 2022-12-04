@@ -127,3 +127,5 @@ source /usr/share/doc/fzf/examples/key-bindings.zsh
 
 # Append this line to ~/.zshrc to enable fuzzy auto-completion for Zsh:
 source /usr/share/doc/fzf/examples/completion.zsh
+
+source ~/.zsh_profile
