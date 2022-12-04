@@ -107,7 +107,6 @@ alias ll="ls -lah"
 
 # Dotfiles
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,zsh,bin,nvim"
 export EDITOR='nvim'
 export GOPATH=$HOME/go
 

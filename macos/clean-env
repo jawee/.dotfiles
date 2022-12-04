@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 pushd $DOTFILES/macos
+STOW_FOLDERS="vim,bin,nvim,tmux,zsh,karabiner"
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
   echo "Removing $folder"

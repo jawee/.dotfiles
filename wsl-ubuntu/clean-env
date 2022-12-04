@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 pushd $DOTFILES/wsl-ubuntu
+STOW_FOLDERS="vim,tmux,zsh,bin,nvim"
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
   echo "Removing $folder"

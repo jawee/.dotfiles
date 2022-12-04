@@ -112,7 +112,7 @@ alias weather="curl wttr.in"
 export GOPATH=$HOME/go
 
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
+#export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
