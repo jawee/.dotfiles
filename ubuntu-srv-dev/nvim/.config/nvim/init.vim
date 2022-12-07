@@ -92,6 +92,7 @@ call plug#end()
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark
+hi Normal guibg=NONE ctermbg=NONE
 
 let loaded_matchparen = 1
 let mapleader = " "
