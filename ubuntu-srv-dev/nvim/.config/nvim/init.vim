@@ -122,6 +122,9 @@ vnoremap K :m '<-2<CR>gv=gv
 vnoremap < <gv
 vnoremap > >gv
 
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+
 " greatest remap ever
 vnoremap <leader>p "_dP
 
