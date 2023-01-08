@@ -92,6 +92,7 @@ call plug#end()
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark
+hi Normal guibg=NONE ctermbg=NONE
 
 let loaded_matchparen = 1
 let mapleader = " "
@@ -170,6 +171,8 @@ au BufNewFile,BufRead Jenkinsfile setf groovy
 nnoremap n nzzzv
 nnoremap N Nzzzv
 nnoremap J mzJ`z
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 " Undo break points
 inoremap , ,<c-g>u

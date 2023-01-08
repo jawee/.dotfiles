@@ -112,11 +112,20 @@ alias weather="curl wttr.in"
 export GOPATH=$HOME/go
 
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
+#export STOW_FOLDERS="vim,tmux,i3,zsh,bin,nvim"
 
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
+export PATH="/usr/local/go/bin:$PATH"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
+
+# Append this line to ~/.zshrc to enable fzf keybindings for Zsh:
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+
+# Append this line to ~/.zshrc to enable fuzzy auto-completion for Zsh:
+source /usr/share/doc/fzf/examples/completion.zsh
+
+source ~/.zsh_profile

@@ -11,8 +11,8 @@ general {
     interval = 5
 }
 
-order += "memory"
 order += "disk /"
+order += "memory"
 #order += "wireless _first_"
 #order += "battery all"
 order += "load"

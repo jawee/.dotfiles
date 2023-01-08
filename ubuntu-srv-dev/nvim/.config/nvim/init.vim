@@ -92,6 +92,7 @@ call plug#end()
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark
+hi Normal guibg=NONE ctermbg=NONE
 
 let loaded_matchparen = 1
 let mapleader = " "
@@ -120,6 +121,9 @@ vnoremap K :m '<-2<CR>gv=gv
 
 vnoremap < <gv
 vnoremap > >gv
+
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 " greatest remap ever
 vnoremap <leader>p "_dP
