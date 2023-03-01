@@ -143,7 +143,7 @@ nnoremap <leader>grom :Git rebase origin/master<CR>
 
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :Neogit kind=split<CR>
+nmap <leader>gs :G<CR>
 
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
