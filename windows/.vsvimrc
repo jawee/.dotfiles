@@ -1,0 +1,46 @@
+set relativenumber
+set nohlsearch
+set expandtab
+set nu
+set nowrap
+set smartcase
+let mapleader = " "
+set scrolloff=8
+
+nnoremap <leader>pf :vsc Edit.GoToFile<CR>
+nnoremap <C-p> :vsc Edit.GoToFile<CR>
+nnoremap <leader>ps :vsc Edit.FindInFiles<CR>
+nnoremap <leader><CR> :so ~/.vsvimrc<CR>
+nnoremap <leader>vd :vsc Edit.GoToDefinition<CR>
+nnoremap <leader>vi :vsc Edit.GoToImplementation<CR>
+nnoremap <leader>vrr :vsc Edit.GoToReferences<CR>
+nnoremap <leader>vrn :vsc Refactor.Rename<CR>
+nnoremap <leader>vca :vsc EditorContextMenus.CodeWindow.QuickActionsForPosition<CR>
+nnoremap <leader>vh :vsc Edit.QuickInfo<CR>
+nnoremap <leader>vn :vsc View.NextError<CR>
+vnoremap gcc :vsc Edit.ToggleComment<CR>
+nnoremap gcc :vsc Edit.ToggleComment<CR>
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+vnoremap > >gv
+vnoremap < <gv 
+
+" greatest remap ever
+vnoremap <leader>p "_dP
+
+" next greatest remap ever : asbjornHaland
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y gg"+yG
+
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+" Keep it centered
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
+
+nnoremap Y y$
