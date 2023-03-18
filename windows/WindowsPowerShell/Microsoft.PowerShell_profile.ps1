@@ -32,11 +32,14 @@ Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
-$paths = 'C:\personal', 'C:\work'
+$paths = 'C:\personal', 'C:\work', "$HOME"
 function sessionizer() {
     $res = Get-ChildItem -Path $paths | Select-Object -ExpandProperty FullName | fzf
     $res = $res.trim()
-    Set-Location -Path $res
+    # Windows terminal open in new tab
+    wt -w 0 powershell.exe -noexit -command "cd $res"
+    # For just changing location in current powershell
+    # Set-Location -Path $res
 }
 
 $env:Path += ";$HOME\bin"
