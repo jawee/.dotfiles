@@ -2,18 +2,11 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/gruvbox.omp.json" | Invoke-
 
 function GoToWork {
     GoToPath -Path C:\work\
-    # Set-Location C:\work\
 }
 
 function GoToPersonal {
     GoToPath -Path C:\personal\
-    # Set-Location C:\personal\
 }
-
-# function GoToPath {
-#     param([String]$Path)
-#     Set-Location $path
-# }
 
 function GoToPath([string]$Path) {
     Set-Location $Path
@@ -35,8 +28,15 @@ Set-Alias open explorer.exe
 
 Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('personal')
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('sessionizer')
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
-$env:Path += ";C:\Users\andreaso\bin"
+$paths = 'C:\personal', 'C:\work'
+function sessionizer() {
+    $res = Get-ChildItem -Path $paths | Select-Object -ExpandProperty FullName | fzf
+    $res = $res.trim()
+    Set-Location -Path $res
+}
+
+$env:Path += ";$HOME\bin"
