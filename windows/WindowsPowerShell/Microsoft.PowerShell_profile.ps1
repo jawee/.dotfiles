@@ -35,7 +35,7 @@ Set-Alias open explorer.exe
 
 Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('work')
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('personal')
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
