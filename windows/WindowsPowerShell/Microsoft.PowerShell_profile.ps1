@@ -20,6 +20,9 @@ Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
 $paths = 'C:\personal', 'C:\work', "$HOME"
 function sessionizer() {
     $res = Get-ChildItem -Path $paths | Select-Object -ExpandProperty FullName | fzf
+    if ($null -eq $res) {
+        return
+    }
     $res = $res.trim()
     # Windows terminal open in new tab
     wt -w 0 powershell.exe -noexit -command "cd $res"
