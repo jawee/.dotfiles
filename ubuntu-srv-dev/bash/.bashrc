@@ -120,3 +120,4 @@ PATH="$PATH:/home/figge/.local/bin"
 
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="vim,tmux,bash,git"
+. "$HOME/.cargo/env"
