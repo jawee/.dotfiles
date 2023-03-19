@@ -19,7 +19,7 @@ Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
-Set-PSREadlineKeyHandler -Chord Ctrl+g -ScriptBlock {
+Set-PSReadlineKeyHandler -Chord Ctrl+Shift+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
     [Microsoft.PowerShell.PSConsoleReadLine]::Insert('GoToWorktree')
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
