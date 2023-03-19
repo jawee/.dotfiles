@@ -111,6 +111,8 @@ alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
 
+alias nwt="new-worktree"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH="$HOME/.cargo/bin:$PATH"
