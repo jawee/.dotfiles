@@ -108,6 +108,7 @@ export EDITOR='nvim'
 alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
+alias nwt="new-worktree"
 
 export GOPATH=$HOME/go
 

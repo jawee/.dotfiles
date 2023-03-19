@@ -114,6 +114,7 @@ alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
 alias open="explorer.exe"
+alias nwt="new-worktree"
 
 export TERM="xterm-256color"
 
