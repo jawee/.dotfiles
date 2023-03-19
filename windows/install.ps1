@@ -1,3 +1,5 @@
+Install-Module PsReadLine -Force
+
 winget install JanDeDobbeleer.OhMyPosh
 
 New-Item -ItemType SymbolicLink -Path "$HOME\bin" -Target bin

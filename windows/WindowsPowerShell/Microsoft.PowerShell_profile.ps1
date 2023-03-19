@@ -7,18 +7,26 @@ function OpenInVS() {
 
 Set-Alias vs -value OpenInVS
 
+Set-Alias nwt new-worktree.exe
+
 Set-Alias ll ls
 
 Set-Alias open explorer.exe
 
 Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('sessionizer')
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('Sessionizer')
+    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
+}
+
+Set-PSREadlineKeyHandler -Chord Ctrl+g -ScriptBlock {
+    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert('GoToWorktree')
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
 $paths = 'C:\personal', 'C:\work', "$HOME"
-function sessionizer() {
+function Sessionizer() {
     $res = Get-ChildItem -Path $paths | Select-Object -ExpandProperty FullName | fzf
     if ($null -eq $res) {
         return
@@ -28,6 +36,17 @@ function sessionizer() {
     wt -w 0 powershell.exe -noexit -command "cd $res"
     # For just changing location in current powershell
     # Set-Location -Path $res
+}
+
+function GoToWorktree() {
+    $res = Get-ChildItem -Path . | Select-Object -ExpandProperty FullName | fzf
+    if ($null -eq $res) {
+        return
+    }
+
+    $res = $res.trim()
+
+    Set-Location -Path $res
 }
 
 $env:Path += ";$HOME\bin"
