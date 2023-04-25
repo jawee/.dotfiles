@@ -109,6 +109,7 @@ alias tn="tmux -u new"
 alias ta="tmux -u attach"
 alias weather="curl wttr.in"
 alias nwt="new-worktree"
+alias ll="ls -lah"
 
 export GOPATH=$HOME/go
 
@@ -119,6 +120,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
 export PATH="/usr/local/go/bin:$PATH"
+export PATH="/home/figge/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin:$PATH"
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
