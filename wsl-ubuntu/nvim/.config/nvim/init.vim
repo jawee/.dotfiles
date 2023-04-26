@@ -72,6 +72,7 @@ Plug 'tomlion/vim-solidity'
 " colorschemes
 Plug 'gruvbox-community/gruvbox'
 Plug 'folke/tokyonight.nvim'
+Plug 'rose-pine/neovim'
 
 " telescope requirements...
 Plug 'nvim-lua/popup.nvim'
@@ -91,6 +92,7 @@ call plug#end()
 
 " colorscheme tokyonight
 " let g:tokyonight_style = "night"
+" colorscheme rose-pine
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 set background=dark
@@ -113,10 +115,6 @@ nnoremap <Leader>rp :resize 100<CR>
 nnoremap <Leader>å :e#<CR>
 nnoremap gT :bprev<CR>
 nnoremap gt :bnext<CR>
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
 nnoremap <C-k> :cnext<CR>zz
 nnoremap <C-j> :cprev<CR>zz
 
