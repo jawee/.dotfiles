@@ -9,3 +9,4 @@ if (-not (Test-Path $HOME\Documents\WindowsPowerShell)) {
 }
 New-Item -ItemType SymbolicLink -Path "$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" -Target ".\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 New-Item -ItemType SymbolicLink -Path "$HOME\.vsvimrc" -Target .vsvimrc
+New-Item -ItemType SymbolicLink -Path "$env:AppData\Code\User\settings.json" -Target settings.json
