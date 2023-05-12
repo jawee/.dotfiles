@@ -4,7 +4,7 @@
     "editor.accessibilitySupport": "off",
     "vim.leader": " ",
     "vim.smartRelativeLine": true,
-    "vim.handleKeys": { "<C-f>": false, "<C-n>": false },
+    "vim.handleKeys": { "<C-f>": false, "<C-n>": false, "<C-a>": false, "<C-c>": false },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>", "v", "r", "n"],
