@@ -49,6 +49,8 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/lsp_extensions.nvim'
 
+Plug 'github/copilot.vim'
+
 Plug 'numToStr/Comment.nvim'
 
 " For luasnip users.
