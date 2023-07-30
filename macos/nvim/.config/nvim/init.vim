@@ -49,7 +49,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'onsails/lspkind-nvim'
 Plug 'nvim-lua/lsp_extensions.nvim'
 
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 Plug 'numToStr/Comment.nvim'
 
@@ -143,6 +143,8 @@ nmap <leader>gs :G<CR>
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
 nnoremap <C-p> :lua require('telescope.builtin').git_files()<CR>
 nnoremap <Leader>pf :Telescope find_files hidden=true<CR>
+nnoremap <leader><space> :lua require('telescope.builtin').buffers({ desc = '[ ] Find existing buffers' })<CR>
+nnoremap <leader>? :lua require('telescope.builtin').oldfiles({ desc = '[?] Find recently opened files' })<CR>
 
 lua require("jawee")
 lua require'nvim-treesitter.configs'.setup { highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
@@ -153,7 +155,8 @@ let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 nnoremap <leader>vd :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>vi :lua vim.lsp.buf.implementation()<CR>
 nnoremap <leader>vsh :lua vim.lsp.buf.signature_help()<CR>
-nnoremap <leader>vrr :lua vim.lsp.buf.references()<CR>
+" nnoremap <leader>vrr :lua vim.lsp.buf.references()<CR>
+nnoremap <leader>vrr :lua require('telescope.builtin').lsp_references({ desc = '[G]oto [R]eferences'})<CR>
 nnoremap <leader>vrn :lua vim.lsp.buf.rename()<CR>
 nnoremap <leader>vh :lua vim.lsp.buf.hover()<CR>
 nnoremap <leader>vca :lua vim.lsp.buf.code_action()<CR>
