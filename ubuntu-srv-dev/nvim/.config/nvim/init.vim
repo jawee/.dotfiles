@@ -79,7 +79,9 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
 
 Plug 'sbdchd/neoformat'
 
@@ -87,10 +89,10 @@ Plug 'simrat39/symbols-outline.nvim'
 
 call plug#end()
 
-" colorscheme tokyonight
-" let g:tokyonight_style = "night"
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'hard'
+colorscheme tokyonight
+let g:tokyonight_style = "night"
+" colorscheme gruvbox
+" let g:gruvbox_contrast_dark = 'hard'
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
