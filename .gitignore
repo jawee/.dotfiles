@@ -3,3 +3,6 @@
 */bin/.local/share
 */bin/.local/state
 **/github-copilot
+
+**/nvim/.config/*
+!**/nvim/.config/nvim
