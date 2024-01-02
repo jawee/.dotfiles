@@ -13,6 +13,12 @@ Set-Alias ll ls
 
 Set-Alias open explorer.exe
 
+Set-Alias gs Fugitive
+
+function Fugitive() {
+    nvim -c G -c on
+}
+
 Set-PSReadlineKeyHandler -Chord Ctrl+f -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
     [Microsoft.PowerShell.PSConsoleReadLine]::Insert('Sessionizer')
