@@ -132,3 +132,5 @@ source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
 
 source ~/.zsh_profile
+
+[ -f "/home/figge/.ghcup/env" ] && source "/home/figge/.ghcup/env" # ghcup-env

@@ -4,10 +4,11 @@ local on_attach = function()
 end
 
 
-local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls', 'bashls' }
+local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls', 'bashls', 'hls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
   }
 end
+
