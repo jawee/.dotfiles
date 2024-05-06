@@ -3,7 +3,7 @@ local on_attach = function()
     print("Lsp Started")
 end
 
-local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls' }
+local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls', 'csharp_ls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
     on_attach = on_attach,

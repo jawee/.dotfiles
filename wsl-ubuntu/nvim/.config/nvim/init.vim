@@ -4,7 +4,7 @@ let g:netrw_winsize = 25
 let g:netrw_localrmdir='rm -r'
 
 syntax enable
-set guicursor=
+set guicursor=n-v:block
 set relativenumber
 set nohlsearch
 set hidden
