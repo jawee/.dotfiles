@@ -41,8 +41,8 @@ cmp.setup({
         ["<C-n>"] = cmp.mapping.select_next_item(select_opts),
     },
     formatting = {
+        fields = { 'abbr', 'kind', 'menu' },
         format = function(entry, vim_item) 
-            vim_item.kind = lspkind.presets.default[vim_item.kind]
             local menu = source_mapping[entry.source.name]
             vim_item.menu = menu
             return vim_item
@@ -56,6 +56,7 @@ cmp.setup({
         -- { name = 'ultisnips' }, -- For ultisnips users.
         -- { name = 'snippy' }, -- For snippy users.
         { name = 'buffer' },
+        { name = 'path' },
     })
 })
 
