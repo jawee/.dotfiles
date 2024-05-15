@@ -54,8 +54,9 @@ Plug 'nvim-lua/lsp_extensions.nvim'
 Plug 'numToStr/Comment.nvim'
 
 " For luasnip users.
-Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip', {'tag': 'v2.*', 'do': 'make install_jsregexp'}
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'rafamadriz/friendly-snippets'
 
 " Plug 'nvim-lua/completion-nvim'
 
