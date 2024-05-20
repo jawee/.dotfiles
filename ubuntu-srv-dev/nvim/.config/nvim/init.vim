@@ -4,7 +4,7 @@ let g:netrw_winsize = 25
 let g:netrw_localrmdir='rm -r'
 
 syntax enable
-set guicursor=
+set guicursor=n-v:block
 set relativenumber
 set nohlsearch
 set hidden
@@ -85,8 +85,6 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 
 Plug 'sbdchd/neoformat'
-
-Plug 'simrat39/symbols-outline.nvim'
 
 call plug#end()
 

@@ -89,10 +89,6 @@ Plug 'nvim-tree/nvim-web-devicons'
 
 Plug 'sbdchd/neoformat'
 
-Plug 'simrat39/symbols-outline.nvim'
-
-Plug 'ThePrimeagen/vim-be-good'
-
 call plug#end()
 
 colorscheme tokyonight
