@@ -1,6 +1,14 @@
-require("jawee.lsp")
-require("jawee.telescope")
-require("jawee.cmp")
-require("jawee.comment")
-require("jawee.symbols")
-require("jawee.lualine")
+require("jawee.set")
+require("jawee.remap")
+require("jawee.terminal")
+require("jawee.init_lazy")
+
+vim.api.nvim_create_autocmd('TextYankPost', {
+    pattern = '*',
+    callback = function()
+        vim.highlight.on_yank({
+            higroup = 'IncSearch',
+            timeout = 40,
+        })
+    end,
+})
