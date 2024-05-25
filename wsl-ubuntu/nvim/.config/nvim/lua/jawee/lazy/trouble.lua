@@ -1,6 +1,5 @@
 return {
     "folke/trouble.nvim",
-    branch = "dev", --v3 beta
     config = function()
         require("trouble").setup({
             icons = false,
