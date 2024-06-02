@@ -44,7 +44,7 @@ return {
             vim.keymap.set("n", "<leader>vsd", function() vim.diagnostic.open_float() end, opts)
             vim.keymap.set("n", "<leader>vn", function() vim.diagnostic.jump({count = 1}) end, opts)
             vim.keymap.set("n", "<leader>vp", function() vim.diagnostic.jump({count = -1}) end, opts)
-            vim.keymap.set("n", "<leader>vfo", function() vim.lsp.buf.formatting() end, opts)
+            vim.keymap.set("n", "<leader>vfo", function() vim.lsp.buf.format({ async = false }) end, opts)
             vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
         end,
       })
