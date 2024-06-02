@@ -2,12 +2,12 @@ return {
     'neovim/nvim-lspconfig',
     dependencies = {
         'j-hui/fidget.nvim',
-        'folke/neodev.nvim',
         'Decodetalkers/csharpls-extended-lsp.nvim',
+        'folke/lazydev.nvim',
     },
     config = function ()
         require("fidget").setup({})
-        require("neodev").setup({})
+        require("lazydev").setup({})
         local cmp_lsp = require("cmp_nvim_lsp")
         local capabilities = vim.tbl_deep_extend(
             "force",
