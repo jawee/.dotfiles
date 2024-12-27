@@ -26,7 +26,7 @@ return {
             vim.lsp.protocol.make_client_capabilities(),
             cmp_lsp.default_capabilities())
         -- rest
-        local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls', 'bashls', 'ocamllsp', 'lua_ls'}
+        local servers = { 'ts_ls', 'rust_analyzer', 'clangd', 'gopls', 'bashls', 'ocamllsp', 'lua_ls'}
         for _, lsp in pairs(servers) do
             require('lspconfig')[lsp].setup {
                 capabilities = capabilities,
