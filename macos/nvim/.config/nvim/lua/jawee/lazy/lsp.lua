@@ -15,20 +15,18 @@ return {
         'j-hui/fidget.nvim',
         'Decodetalkers/csharpls-extended-lsp.nvim',
         'folke/lazydev.nvim',
-        'saghen/blink.cmp'
     },
     config = function ()
         require("fidget").setup({})
         require("lazydev").setup({})
-        -- local cmp_lsp = require("cmp_nvim_lsp")
-        -- local capabilities = vim.tbl_deep_extend(
-        --     "force",
-        --     {},
-        --     vim.lsp.protocol.make_client_capabilities(),
-        --     cmp_lsp.default_capabilities())
-        local capabilities = require('blink.cmp').get_lsp_capabilities()
+        local cmp_lsp = require("cmp_nvim_lsp")
+        local capabilities = vim.tbl_deep_extend(
+            "force",
+            {},
+            vim.lsp.protocol.make_client_capabilities(),
+            cmp_lsp.default_capabilities())
         -- rest
-        local servers = { 'ts_ls', 'rust_analyzer', 'clangd', 'gopls', 'bashls', 'ocamllsp', 'lua_ls'}
+        local servers = { 'tsserver', 'rust_analyzer', 'clangd', 'gopls', 'bashls', 'ocamllsp', 'lua_ls'}
         for _, lsp in pairs(servers) do
             require('lspconfig')[lsp].setup {
                 capabilities = capabilities,
