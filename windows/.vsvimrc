@@ -12,7 +12,7 @@ nnoremap <C-p> :vsc Edit.GoToFile<CR>
 nnoremap <leader>ps :vsc Edit.FindInFiles<CR>
 nnoremap <leader><CR> :so ~/.vsvimrc<CR>
 nnoremap <leader>vd :vsc Edit.GoToDefinition<CR>
-nnoremap <leader>vi :vsc Edit.GoToImplementation<CR>
+nnoremap <leader>vi :vsc Edit.GoToImplementation<CR><ESC>
 nnoremap <leader>vrr :vsc Edit.GoToReferences<CR>
 nnoremap <leader>vrn :vsc Refactor.Rename<CR>
 nnoremap <leader>vca :vsc EditorContextMenus.CodeWindow.QuickActionsForPosition<CR>
@@ -20,6 +20,11 @@ nnoremap <leader>vh :vsc Edit.QuickInfo<CR>
 nnoremap <leader>vn :vsc View.NextError<CR>
 vnoremap gcc :vsc Edit.ToggleComment<CR>
 nnoremap gcc :vsc Edit.ToggleComment<CR>
+nnoremap <leader>gt :vsc View.NavigateBackward<CR>
+nnoremap <leader>gT :vsc View.NavigateForward<CR>
+
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv

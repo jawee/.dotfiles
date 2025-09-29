@@ -1,10 +1,11 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Tokyo Night",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.accessibilitySupport": "off",
+    "editor.fontSize": 16,
     "vim.leader": " ",
     "vim.smartRelativeLine": true,
-    "vim.handleKeys": { "<C-f>": false, "<C-n>": false, "<C-a>": false, "<C-c>": false },
+    "vim.handleKeys": { "<C-f>": false, "<C-n>": false, "<C-a>": false, "<C-c>": false, "<C-p>": false, },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>", "v", "r", "n"],
@@ -44,5 +45,7 @@
             "before": ["K"],
             "commands": ["editor.action.moveLinesUpAction"]
         },
-    ]
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "window.zoomLevel": -1
 }
