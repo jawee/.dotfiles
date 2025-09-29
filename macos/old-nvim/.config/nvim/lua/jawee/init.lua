@@ -1,0 +1,6 @@
+require("jawee.lsp")
+require("jawee.telescope")
+require("jawee.cmp")
+require("jawee.comment")
+require("jawee.symbols")
+require("jawee.lualine")

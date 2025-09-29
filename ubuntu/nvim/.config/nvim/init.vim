@@ -4,7 +4,7 @@ let g:netrw_winsize = 25
 let g:netrw_localrmdir='rm -r'
 
 syntax enable
-set guicursor=
+set guicursor=n-v:block
 set relativenumber
 set nohlsearch
 set hidden
@@ -52,8 +52,9 @@ Plug 'nvim-lua/lsp_extensions.nvim'
 Plug 'numToStr/Comment.nvim'
 
 " For luasnip users.
-Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip', {'tag': 'v2.*', 'do': 'make install_jsregexp'}
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'rafamadriz/friendly-snippets'
 
 " Plug 'nvim-lua/completion-nvim'
 
@@ -79,18 +80,18 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
 
 Plug 'sbdchd/neoformat'
 
-Plug 'simrat39/symbols-outline.nvim'
-
 call plug#end()
 
-" colorscheme tokyonight
-" let g:tokyonight_style = "night"
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'hard'
+colorscheme tokyonight
+let g:tokyonight_style = "night"
+" colorscheme gruvbox
+" let g:gruvbox_contrast_dark = 'hard'
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
