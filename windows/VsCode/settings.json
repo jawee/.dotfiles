@@ -34,7 +34,7 @@
         {
             "before": ["<leader>", "v", "c", "a"],
             "commands": ["editor.action.quickFix"]
-        },
+        }
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -44,13 +44,6 @@
         {
             "before": ["K"],
             "commands": ["editor.action.moveLinesUpAction"]
-        },
-<<<<<<< HEAD
-    ],
-    "editor.inlineSuggest.enabled": true,
-    "window.zoomLevel": -1
-}
-=======
+        }
     ]
 }
->>>>>>> b883c651d5174e467116d373483cb03d9009f4f5
